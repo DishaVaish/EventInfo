@@ -1,0 +1,94 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - tell_name
+  - ask_name:
+      use_entities:
+        - name
+  - ask_number:
+      use_entites:
+        - number
+  - know_upcoming_events
+  - particular_month_event
+  - all_events_spcfdate
+  - all_events
+  - register
+  - get_event_name
+  - basic_details_bbsee
+  - user_asks_arena_desc
+  - specific_details_about_BBSEE
+  - out_of_scope
+  - basic_details_dohh
+
+actions:
+  - action_say_events
+  - restart_convo
+  - action_say_mevents
+  - action_say_allevents
+  - action_say_alleventsall
+  - action_givegformlink
+  - say_bbsee_details
+  - show_arena_map
+  - decide_details
+  - action_fallback
+  - say_dohh_details
+
+
+entities:
+  - name
+  - number
+  - month_name
+  - eventname
+  - boolMap
+  - SpecificDetail_BBSE
+slots:
+  name: 
+    type: text
+  number:
+    type: text
+   
+responses:
+  utter_greet:
+  - text: "Hey! How are you?Let me know if you need some help!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_name:
+  - text: "my name is eventbuzz."
+
+  utter_askname:
+  - text: "tell me your name."
+
+  utter_asknumber:
+  - text: "tell me your number."
+
+  
+  utter_entereventname:
+  - text: "Choose a name of the Events from the list above"
+  #utter_out_of_scope:
+  #- text:
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
