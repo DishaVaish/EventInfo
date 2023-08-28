@@ -1,0 +1,280 @@
+pip listversion: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: tell_name
+  examples: |
+    - what is your name?
+    - what others call you
+    - what should i call you?
+
+- intent: ask_name
+  examples: |
+    -my name is [DISHA]{"entity":"name","value"="DISHA"}
+    -[DISHA]{"entity":"name","value"="DISHA"} this side
+    -my name is [KANAK]{"entity":"name","value"="KANAK"}
+    -[KANAK]{"entity":"name","value"="KANAK"} this side
+    -my name is [AISHA]{"entity":"name","value"="AISHA"}
+    -[AISHA]{"entity":"name","value"="AISHA"} this side
+
+- intent: ask_number
+  examples: |
+    -my number is [9580988838]{"entity":"number","value"="DISHA"}
+    -my numberis [9580988830]{"entity":"number","value"="9580988830"}
+    -my number is [9580988839]{"entity":"number","value"="9580988839"}
+    
+
+
+- intent: know_upcoming_events
+  examples: |
+    - Can you tell me about the upcoming event?
+    - What is the next event in this college?
+    - When and what is the next event of the college?
+    - Tell me about the next even the college is hosting 
+    - What is the upcoming event in the college?
+
+- intent: particular_month_event
+  examples: |
+    - What important events are in [January]{"entity":"month_name", "value":"January"}?                 
+    - Are there any important happenings in [March]{"entity":"month_name", "value":"March"}?          
+    - Any important events in [June]{"entity":"month_name", "value":"June"} this year?                
+    - Could you inform me about any notable occasions in [September]{"entity":"month_name", "value":"September"}? 
+    - Please provide information on any important events in [December]{"entity":"month_name", "value":"December"}. 
+
+- lookup: month_name
+  examples: |
+    - January   
+    - February  
+    - March     
+    - April     
+    - May       
+    - June      
+    - July      
+    - August    
+    - September 
+    - October   
+    - November  
+    - December  
+- intent: all_events_spcfdate
+  examples: |
+    - What events are left for this year?
+    - Can you tell me what events are left?
+    - what are the upcoming events in the college?
+    - What events are left for this year?
+    - Can you tell me what events are left?
+    - What are the upcoming events in the college?
+    - Are there any events scheduled for the rest of the year?
+    - Can you give me the list of the remaining events of this year?
+    - Are there any more events planned for the year?
+- intent: all_events
+  examples : |
+    - What are all the events that are hosted in this college?
+    - Can you give me a list of all the events that are hosted in this college?
+    - What events does this college host?
+    - Give me a list of all the events that occur in a year
+- intent: register
+  examples: |
+    - Can you register me?
+    - Can you help me get registered?
+    - Can you share the list of upcoming events that I can register for?
+    - I'm looking for a list of events I can register for. Any recommendations?
+    - Could you provide me with the schedule of events and their registration links?
+    - Where can I find information about the events happening this year?
+    - Is there a website or page where I can see all the events available for registration?
+    - What are the events I can register for this year?
+    - Show me a list of upcoming events and their registration details.
+- intent: get_event_name
+  examples: |
+    - I want to register for [Welcome Party]{"entity":"eventname", "value":"Welcome Party"}
+    - Can you register me for [Welcome Party]{"entity": "eventname", "value":"Welcome Party"}?
+    - [Welcome Party]{"entity":"eventname", "value":"Welcome Party"}
+    - [Sports Day]{"entity":"eventname", "value":"Sports Day"}
+    - [Hackathon]{"entity":"eventname","value":"Hackathon"}
+    - Register me for [Hackathon]{"entity":"eventname"}
+  
+- lookup: eventname
+  examples: |
+    - Welcome Party
+    - Tech Symposium
+    - Cultural Fest
+    - Hackathon
+    - Sports Day
+- intent: basic_details_bbsee
+  examples: |
+    - Can you tell me the basic details of BumbleSee event?
+    - Can you tell me about the Bumblesee event?
+    - Describe the Bumblesee event
+    - What do you know about the Bumblesee event?
+    - BumbleSee event?
+- intent: user_asks_arena_desc
+  examples: |
+    - Can you describe the arena of the Bumblesee event for me?
+    - What would the arena of the Bumblesee event be like?
+    - Can you provide me with the arena descriptions?
+    - Can you show me a [map]{"entity":"boolMap","value":"True"} of the arena?
+    - Can you tell me what the arena will [look]{"entity":"boolMap","value":"True"} like?
+    - Can you give me a [map]{"entity":"boolMap","value":"True"} of the Arena?
+    - Show me a [map]{"entity":"boolMap", "value":"True"} of the arena
+- intent: specific_details_about_BBSEE
+  examples: |
+    - Tell me about the [rules]{"entity":"SpecificDetail_BBSE", "value":"AllRules"} of BumbleSee event
+    - Can you list me the [rules of the Bumblesee event]{"entity":"SpecificDetail_BBSE","value":"AllRules"}?
+    - What are the [rules of the Bumblesee event]{"entity":"SpecificDetail_BBSE","value":"AllRules"}?
+    - What [rules]{"entity":"SpecificDetail_BBSE","value":"AllRules"} should I follow for BumbleSee event?
+    - Can you tell me about Rule [5]{"entity":"SpecificDetail_BBSE","value":"5"} of BumbleSee Event?
+    - What is Rule [4] {"entity:""SpecificDetail_BBSE","value":"4"} of bumblesee event?
+    - Tell me about Rule [6]{"entity":"SpecificDetail_BBSE","value":"6"} of the BumbleSee event
+    - What was rule [3]{"entity":"SpecificDetail_BBSE","value":"3"} of the BumbleSee event?
+    - Can you tell me about the [Gameplay]{"entity":"SpecificDetail_BBSE","value":"Game_Play"} of BumbleSee event?
+    - What is the [Gameplay]{"entity":"SpecificDetail_BBSE","value":"Game_Play"} of the BumbleSee event?
+    - Can you tell me about the [Marking Scheme]{"entity":"SpecificDetail_BBSE","value":"Marking_Scheme"} of the BumbleSee Event?
+    - What is the [Marking Scheme]{"entity":"SpecificDetail_BBSE","value":"Marking_Scheme"} of the BumbleSee Event?
+    - Describe the [marking]{"entity":"SpecificDetail_BBSE","value":"Marking_Scheme"} of the BumbleSee Event
+    - Can you tell me about the [Penalties]{"entity":"SpecificDetail_BBSE","value":"Penalty"} in the BumbleSee event?
+    - What are the [Penalties]{"entity":"SpecificDetail_BBSE","value":"Penalty"} that can be applied in the Bumblesee event?
+- intent: out_of_scope
+  examples: |
+    - tell me about MNNIT
+    - tell me about placements of MNNIT
+    - what are the placement statistics of MNNIT
+    - tell me about robotics club of MNNIT
+- lookup: SpecificDetail_BBSE
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - Marking
+    - Gameplay
+
+- intent: basic_details_dohh
+  examples: |
+    - Can you tell me the basic details of Decept of Home event?
+    - Can you tell me about the Decept of Home event?
+    - Describe the Decept of Home  event
+    - What do you know about the Decept of Home event?
+    - Decept of Home event?
+
+
+
+
+#- intent: decept_of_home
+#  examples:
+#  - Tell me about the [rules]{"entity":"SpecificDetail_DOH", "value":"eventRules"} of Decept of Home event
+#  - Can you list me the [rules of the Decept of home event]{"entity":"SpecificDetail_DOH","value":"eventRules"}?  - What are the [rules of the Decept of Home event]{"entity":"SpecificDetail_DOH","value":"eventRules"}?
+#  - What [rules]{"entity":"SpecificDetail_DOH","value":"eventRules"} should I follow for Decept of Home event?
+#   - Can you tell me about Rule [5]{"entity":"SpecificDetail_DOH","value":"5"} of Decept of Home Event?
+#  - What is Rule [4] {"entity:""SpecificDetail_DOH","value":"4"} of Decept of Home event?
+#   - Tell me about Rule [6]{"entity":"SpecificDetail_DOH","value":"6"} of the Decept of Home event
+#    - What was rule [3]{"entity":"SpecificDetail_DOH","value":"3"} of the Decept of Home event?
+#   - Can you tell me about the [problemStatements]{"entity":"SpecificDetail_DOH","value":"problem_Statements"} of Decept of Home event?
+#   - What is the [problemStatements]{"entity":"SpecificDetail_DOH","value":"problem_Statements"} of the Decept of Home  event?
+#   - Can you tell me about the [bot specifications]{"entity":"SpecificDetail_DOH","value":"botSpecification"} of the Decept of Home Event?
+#   - What is the [bot specifications]{"entity":"SpecificDetail_DOH","value":"botSpecification"} of the Decept of Home Event?
+#   - What are the [Tips]{"entity":"SpecificDetail_DOH","value":"tips"} that can be applied in the Decept of Home event?
+
+   # - Can you tell me about the [Marking Scheme]{"entity":"SpecificDetail_DOH","value":"Marking_Scheme"} of the Decept of Home Event?
+   # - What is the [Marking Scheme]{"entity":"SpecificDetail_DOH","value":"Marking_Scheme"} of the Decept of Home Event?
+   # - Describe the [marking]{"entity":"SpecificDetail_DOH","value":"Marking_Scheme"} of the Decept of Home Event
+   # - Can you tell me about the [Penalties]{"entity":"SpecificDetail_DOH","value":"Penalty"} in the Decept of Home event?
+   # - What are the [Penalties]{"entity":"SpecificDetail_DOH","value":"Penalty"} that can be applied in the Decept of Home event?
+- lookup: SpecificDetail_DOH
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - problemStatements
+    - Tips

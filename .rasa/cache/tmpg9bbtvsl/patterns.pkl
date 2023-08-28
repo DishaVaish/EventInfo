@@ -1,0 +1,18 @@
+[
+  {
+    "name": "month_name",
+    "pattern": "(\\bJanuary\\b|\\bFebruary\\b|\\bMarch\\b|\\bApril\\b|\\bMay\\b|\\bJune\\b|\\bJuly\\b|\\bAugust\\b|\\bSeptember\\b|\\bOctober\\b|\\bNovember\\b|\\bDecember\\b)"
+  },
+  {
+    "name": "eventname",
+    "pattern": "(\\bWelcome\\ Party\\b|\\bTech\\ Symposium\\b|\\bCultural\\ Fest\\b|\\bHackathon\\b|\\bSports\\ Day\\b)"
+  },
+  {
+    "name": "SpecificDetail_BBSE",
+    "pattern": "(\\b1\\b|\\b2\\b|\\b3\\b|\\b4\\b|\\b5\\b|\\b6\\b|\\bMarking\\b|\\bGameplay\\b)"
+  },
+  {
+    "name": "SpecificDetail_DOH",
+    "pattern": "(\\b1\\b|\\b2\\b|\\b3\\b|\\b4\\b|\\b5\\b|\\b6\\b|\\bproblemStatements\\b|\\bTips\\b)"
+  }
+]

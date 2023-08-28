@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-SpecificDetail_BBSE",
+      "2": "I-SpecificDetail_BBSE",
+      "3": "L-SpecificDetail_BBSE",
+      "4": "U-SpecificDetail_BBSE",
+      "5": "B-boolMap",
+      "6": "I-boolMap",
+      "7": "L-boolMap",
+      "8": "U-boolMap",
+      "9": "B-eventname",
+      "10": "I-eventname",
+      "11": "L-eventname",
+      "12": "U-eventname",
+      "13": "B-month_name",
+      "14": "I-month_name",
+      "15": "L-month_name",
+      "16": "U-month_name",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-SpecificDetail_BBSE": 1,
+      "I-SpecificDetail_BBSE": 2,
+      "L-SpecificDetail_BBSE": 3,
+      "U-SpecificDetail_BBSE": 4,
+      "B-boolMap": 5,
+      "I-boolMap": 6,
+      "L-boolMap": 7,
+      "U-boolMap": 8,
+      "B-eventname": 9,
+      "I-eventname": 10,
+      "L-eventname": 11,
+      "U-eventname": 12,
+      "B-month_name": 13,
+      "I-month_name": 14,
+      "L-month_name": 15,
+      "U-month_name": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]
