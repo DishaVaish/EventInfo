@@ -236,13 +236,25 @@ nlu:
     - Marking
     - Gameplay
 
+   - lookup: SpecificDetail_meepmop
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - Marking
+    - Gameplay 
+
+
 - intent: v_on
   examples: |
     - Voice ON
     - sound on
     - v on
     - voice activate
-    
+
 - intent: v_off
   examples: |
     - Voice OFF
