@@ -207,7 +207,7 @@ nlu:
     - Can you tell me about the [Penalties]{"entity":"SpecificDetail_BBSE","value":"Penalty"} in the BumbleSee event?
     - What are the [Penalties]{"entity":"SpecificDetail_BBSE","value":"Penalty"} that can be applied in the Bumblesee event?
   
-  intent: specific_details_about_Meepmop
+- intent: specific_details_about_Meepmop
   examples: |
     - Tell me about the [rule]{"entity":"specific_details_Meepmop", "value":"rule"} of Meepmop event
     - Can you list me the [rule of the Meepmop event]{"entity":"specific_details_Meepmop","value":"rule"}?
@@ -236,7 +236,7 @@ nlu:
     - Marking
     - Gameplay
 
-   - lookup: SpecificDetail_meepmop
+- lookup: SpecificDetail_meepmop
   examples: |
     - 1
     - 2
