@@ -191,6 +191,25 @@ nlu:
     - Describe the [marking]{"entity":"SpecificDetail_BBSE","value":"Marking_Scheme"} of the BumbleSee Event
     - Can you tell me about the [Penalties]{"entity":"SpecificDetail_BBSE","value":"Penalty"} in the BumbleSee event?
     - What are the [Penalties]{"entity":"SpecificDetail_BBSE","value":"Penalty"} that can be applied in the Bumblesee event?
+  
+  intent: specific_details_about_Meepmop
+  examples: |
+    - Tell me about the [rule]{"entity":"specific_details_Meepmop", "value":"rule"} of Meepmop event
+    - Can you list me the [rule of the Meepmop event]{"entity":"specific_details_Meepmop","value":"rule"}?
+    - What are the [rule of the   Meepmop event]{"entity":"specific_details_Meepmop","value":"rule"}?
+    - What [rule]{"entity":"specific_details_Meepmop","value":"rule"} should I follow for Meepmop event?
+    - Can you tell me about Rule [5]{"entity":"specific_details_Meepmop","value":"5"} of Meepmop Event?
+    - What is Rule [4] {"entity:""specific_details_Meepmop","value":"4"} of Meepmop event?
+    - Tell me about Rule [6]{"entity":"specific_details_Meepmop","value":"6"} of the Meepmop event
+    - What was rule [3]{"entity":"specific_details_Meepmop","value":"3"} of the Meepmop event?
+    - Can you tell me about the [Gameplay]{"entity":"specific_details_Meepmop","value":"Game_Play"} of Meepmop event?
+    - What is the [Gameplay]{"entity":"specific_details_Meepmop","value":"Game_Play"} of the Meepmop event?
+    - Can you tell me about the [Marking Scheme]{"entity":"specific_details_Meepmop","value":"Marking_Scheme"} of the Meepmop Event?
+    - What is the [Marking Scheme]{"entity":"specific_details_Meepmop","value":"Marking_Scheme"} of the Meepmop Event?
+    - Describe the [marking]{"entity":"specific_details_Meepmop","value":"Marking_Scheme"} of the Meepmop Event
+    - Can you tell me about the [Penalties]{"entity":"specific_details_Meepmop","value":"Penalty"} in the Meepmop event?
+    - What are the [Penalties]{"entity":"specific_details_Meepmop","value":"Penalty"} that can be applied in the Meepmop event? 
+
 - lookup: SpecificDetail_BBSE
   examples: |
     - 1
