@@ -91,6 +91,7 @@ nlu:
     - When and what is the next event of the college?
     - Tell me about the next even the college is hosting 
     - What is the upcoming event in the college?
+
 - intent: particular_month_event
   examples: |
     - What important events are in [January]{"entity":"month_name", "value":"January"}?                 
@@ -112,7 +113,8 @@ nlu:
     - September 
     - October   
     - November  
-    - December  
+    - December 
+
 - intent: all_events_spcfdate
   examples: |
     - What events are left for this year?
@@ -124,12 +126,14 @@ nlu:
     - Are there any events scheduled for the rest of the year?
     - Can you give me the list of the remaining events of this year?
     - Are there any more events planned for the year?
+
 - intent: all_events
   examples : |
     - What are all the events that are hosted in this college?
     - Can you give me a list of all the events that are hosted in this college?
     - What events does this college host?
-    - Give me a list of all the events that occur in a year
+    - Give me a list of all the events that occur in a year.
+
 - intent: register
   examples: |
     - Can you register me?
@@ -141,6 +145,7 @@ nlu:
     - Is there a website or page where I can see all the events available for registration?
     - What are the events I can register for this year?
     - Show me a list of upcoming events and their registration details.
+
 - intent: get_event_name
   examples: |
     - I want to register for [Welcome Party]{"entity":"eventname", "value":"Welcome Party"}
@@ -157,6 +162,7 @@ nlu:
     - Cultural Fest
     - Hackathon
     - Sports Day
+
 - intent: basic_details_bbsee
   examples: |
     - Can you tell me the basic details of BumbleSee event?
@@ -164,7 +170,15 @@ nlu:
     - Describe the Bumblesee event
     - What do you know about the Bumblesee event?
     - BumbleSee event?
-    -
+    
+- intent: basic_details_meepmop
+  examples: |
+    - Can you tell me the basic details of meepmop event?
+    - Can you tell me about the meepmop event?
+    - Describe the meepmop event
+    - What do you know about the meepmop event?
+    - Meepmop event?
+
 - intent: user_asks_arena_desc
   examples: |
     - Can you describe the arena of the Bumblesee event for me?
@@ -174,6 +188,7 @@ nlu:
     - Can you tell me what the arena will [look]{"entity":"boolMap","value":"True"} like?
     - Can you give me a [map]{"entity":"boolMap","value":"True"} of the Arena?
     - Show me a [map]{"entity":"boolMap", "value":"True"} of the arena
+
 - intent: specific_details_about_BBSEE
   examples: |
     - Tell me about the [rules]{"entity":"SpecificDetail_BBSE", "value":"AllRules"} of BumbleSee event
@@ -220,12 +235,14 @@ nlu:
     - 6
     - Marking
     - Gameplay
+
 - intent: v_on
   examples: |
     - Voice ON
     - sound on
     - v on
     - voice activate
+    
 - intent: v_off
   examples: |
     - Voice OFF
