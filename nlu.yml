@@ -179,6 +179,14 @@ nlu:
     - What do you know about the meepmop event?
     - Meepmop event?
 
+- intent: basic_details_MatchnEngage
+  examples: |
+    - Can you tell me the basic details of MatchnEngage event?
+    - Can you tell me about the MatchnEngage event?
+    - Describe the MatchnEngage event
+    - What do you know about the MatchnEngage event?
+    - MatchnEngage event?    
+
 - intent: user_asks_arena_desc
   examples: |
     - Can you describe the arena of the Bumblesee event for me?
@@ -224,6 +232,25 @@ nlu:
     - Describe the [marking]{"entity":"specific_details_Meepmop","value":"Marking_Scheme"} of the Meepmop Event
     - Can you tell me about the [Penalties]{"entity":"specific_details_Meepmop","value":"Penalty"} in the Meepmop event?
     - What are the [Penalties]{"entity":"specific_details_Meepmop","value":"Penalty"} that can be applied in the Meepmop event? 
+    - intent: specific_details_about_Meepmop
+
+- intent: specific_details_about_MatchnEngage
+  examples: |
+    - Tell me about the [rules]{"entity":"specific_details_MatchnEngage", "value":"rules"} of MatchnEngage event
+    - Can you list me the [rules of the MatchnEngage event]{"entity":"specific_details_MatchnEngage","value":"rules"}?
+    - What are the [rules of the  MatchnEngage event]{"entity":"specific_details_MatchnEngage","value":"rules"}?
+    - What [rules]{"entity":"specific_details_MatchnEngage","value":"rules"} should I follow for MatchnEngage event?
+    - Can you tell me about Rules [5]{"entity":"specific_details_MatchnEngage","value":"5"} of MatchnEngage Event?
+    - What is Rules [4] {"entity:""specific_details_MatchnEngage","value":"4"} of MatchnEngage event?
+    - Tell me about Rules [6]{"entity":"specific_details_MatchnEngage","value":"6"} of the MatchnEngage event
+    - What was rules [3]{"entity":"specific_details_MatchnEngage","value":"3"} of the MatchnEngage event?
+    - Can you tell me about the [Gameplay]{"entity":"specific_details_MatchnEngage","value":"Game_Play"} of MatchnEngageevent?
+    - What is the [Gameplay]{"entity":"specific_details_MatchnEngage","value":"Game_Play"} of the MatchnEngage event?
+    - Can you tell me about the [Marking Scheme]{"entity":"specific_details_MatchnEngage","value":"Marking_Scheme"} of the MatchnEngage Event?
+    - What is the [Marking Scheme]{"entity":"specific_details_MatchnEngage","value":"Marking_Scheme"} of the MatchnEngage Event?
+    - Describe the [marking]{"entity":"specific_details_MatchnEngage","value":"Marking_Scheme"} of the MatchnEngage Event
+    - Can you tell me about the [Penalties]{"entity":"specific_details_MatchnEngage","value":"Penalty"} in the MatchnEngage event?
+    - What are the [Penalties]{"entity":"specific_details_MatchnEngage","value":"Penalty"} that can be applied in the MatchnEngage event? 
 
 - lookup: SpecificDetail_BBSE
   examples: |
@@ -237,6 +264,17 @@ nlu:
     - Gameplay
 
 - lookup: SpecificDetail_meepmop
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - Marking
+    - Gameplay 
+
+- lookup: SpecificDetail_MatchnEngage
   examples: |
     - 1
     - 2
