@@ -1,0 +1,25 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- rule: bot follows path
+  steps:
+  - intent: get_event_name
+  - action: action_givegformlink
+  - action: restart_convo
+- rule: voice on
+  steps:
+  - intent: v_on
+  - action: voice_mode_on
+  - action: restart_convo
+- rule: voice off
+  steps:
+  - intent: v_off
+  - action: voice_mode_off
+  - action: restart_convo
