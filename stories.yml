@@ -91,3 +91,339 @@ stories:
   - intent: v_off
   - action: voice_mode_off
   - action: restart_convo
+
+- story: current_events
+  steps:
+  - intent: current_events
+  - action: utter_events
+
+- story: user asks for Bot Rush information
+  steps:
+  - intent: event_information_Bot_Rush
+  - action: utter_Bot_Rush
+
+- story: user asks for Bot Rush Sub events
+  steps:
+  - intent: event_information_Bot_Rush_subevents
+  - action: utter_Bot_Rush_subevents
+
+- story: user asks for the registration link for Bot Rush
+  steps:
+  - intent: event_registration_Bot_Rush
+  - action: utter_Bot_Rush_Registration
+
+- story: user asks for the venue for Bot Rush
+  steps:
+  - intent: event_venue_Bot_Rush
+  - action: utter_Bot_Rush_venue
+
+- story: user asks for the contact details for Bot Rush
+  steps:
+  - intent: event_contact_details_Bot_Rush
+  - action: utter_Bot_Rush_contact_details
+
+- story: user asks for the image of Bot Rush
+  steps:
+  - intent: event_image_Bot_Rush
+  - action: utter_Bot_Rush_image
+
+- story: user asks for all rules of Bumble See
+  steps:
+  - intent: event_all_rule_Bumble_See
+  - action: utter_all_rule_Bumble_See
+
+- story: user asks for all rules of Match n Engage
+  steps:
+  - intent: event_all_rule_Match_n_Engage
+  - action: utter_all_rule_Match_n_Engage
+
+- story: user asks for all rules of Decept of Home
+  steps:
+  - intent: event_all_rule_Decept_of_Home
+  - action: utter_all_rule_Decept_of_Home
+
+- story: user asks for all rules of Meep Mop
+  steps:
+  - intent: event_all_rule_Meep_Mop
+  - action: utter_all_rule_Meep_Mop
+
+- story: user asks for rule 1 of Bumble See
+  steps:
+  - intent: event_rule_1_Bumble_See
+  - action: utter_rule_1_Bumble_See
+
+- story: user asks for rule 2 of Bumble See
+  steps:
+  - intent: event_rule_2_Bumble_See
+  - action: utter_rule_2_Bumble_See
+
+- story: user asks for rule 3 of Bumble See
+  steps:
+  - intent: event_rule_3_Bumble_See
+  - action: utter_rule_3_Bumble_See
+
+- story: user asks for rule 4 of Bumble See
+  steps:
+  - intent: event_rule_4_Bumble_See
+  - action: utter_rule_4_Bumble_See
+
+- story: user asks for rule 5 of Bumble See
+  steps:
+  - intent: event_rule_5_Bumble_See
+  - action: utter_rule_5_Bumble_See
+
+- story: user asks for rule 6 of Bumble See
+  steps:
+  - intent: event_rule_6_Bumble_See
+  - action: utter_rule_6_Bumble_See
+
+- story: user asks for rule 1 of Decept of Home
+  steps:
+  - intent: event_rule_1_Decept_of_Home
+  - action: utter_rule_1_Decept_of_Home
+
+- story: user asks for rule 2 of Decept of Home
+  steps:
+  - intent: event_rule_2_Decept_of_Home
+  - action: utter_rule_2_Decept_of_Home
+
+- story: user asks for rule 3 of Decept of Home
+  steps:
+  - intent: event_rule_3_Decept_of_Home
+  - action: utter_rule_3_Decept_of_Home
+
+- story: user asks for rule 4 of Decept of Home
+  steps:
+  - intent: event_rule_4_Decept_of_Home
+  - action: utter_rule_4_Decept_of_Home
+
+- story: user asks for rule 5 of Decept of Home
+  steps:
+  - intent: event_rule_5_Decept_of_Home
+  - action: utter_rule_5_Decept_of_Home
+
+- story: user asks for rule 6 of Decept of Home
+  steps:
+  - intent: event_rule_6_Decept_of_Home
+  - action: utter_rule_6_Decept_of_Home
+
+- story: user asks for rule 1 of Match n Engage
+  steps:
+  - intent: event_rule_1_Match_n_Engage
+  - action: utter_rule_1_Match_n_Engage
+
+- story: user asks for rule 2 of Match n Engage
+  steps:
+  - intent: event_rule_2_Match_n_Engage
+  - action: utter_rule_2_Match_n_Engage
+
+- story: user asks for rule 3 of Match n Engage
+  steps:
+  - intent: event_rule_3_Match_n_Engage
+  - action: utter_rule_3_Match_n_Engage
+
+- story: user asks for rule 4 of Match n Engage
+  steps:
+  - intent: event_rule_4_Match_n_Engage
+  - action: utter_rule_4_Match_n_Engage
+
+- story: user asks for rule 5 of Match n Engage
+  steps:
+  - intent: event_rule_5_Match_n_Engage
+  - action: utter_rule_5_Match_n_Engage
+
+- story: user asks for rule 6 of Match n Engage
+  steps:
+  - intent: event_rule_6_Match_n_Engage
+  - action: utter_rule_6_Match_n_Engage
+
+- story: user asks for rule 1 of Meep Mop
+  steps:
+  - intent: event_rule_1_Meep_Mop
+  - action: utter_rule_1_Meep_Mop
+
+- story: user asks for rule 2 of Meep Mop
+  steps:
+  - intent: event_rule_2_Meep_Mop
+  - action: utter_rule_2_Meep_Mop
+
+- story: user asks for rule 3 of Meep Mop
+  steps:
+  - intent: event_rule_3_Meep_Mop
+  - action: utter_rule_3_Meep_Mop
+
+- story: user asks for rule 4 of Meep Mop
+  steps:
+  - intent: event_rule_4_Meep_Mop
+  - action: utter_rule_4_Meep_Mop
+
+- story: user asks for rule 5 of Meep Mop
+  steps:
+  - intent: event_rule_5_Meep_Mop
+  - action: utter_rule_5_Meep_Mop
+
+- story: user asks for rule 6 of Meep Mop
+  steps:
+  - intent: event_rule_6_Meep_Mop
+  - action: utter_rule_6_Meep_Mop
+
+- story: user asks for Bumble See information
+  steps:
+  - intent: event_information_Bumble_See
+  - action: utter_Bumble_See
+
+- story: user asks for Bumble See Sub events
+  steps:
+  - intent: event_information_Bumble_See_subevents
+  - action: utter_Bumble_See_subevents
+
+- story: user asks for the registration link for Bumble See
+  steps:
+  - intent: event_registration_Bumble_See
+  - action: utter_Bumble_See_Registration
+
+- story: user asks for the venue for Bumble See
+  steps:
+  - intent: event_venue_Bumble_See
+  - action: utter_Bumble_See_venue
+
+- story: user asks for the contact details for Bumble See
+  steps:
+  - intent: event_contact_details_Bumble_See
+  - action: utter_Bumble_See_contact_details
+
+- story: user asks for the image of Bumble See
+  steps:
+  - intent: event_image_Bumble_See
+  - action: utter_Bumble_See_image
+
+- story: user asks for Decept of Home information
+  steps:
+  - intent: event_information_Decept_of_Home
+  - action: utter_Decept_of_Home
+
+- story: user asks for Decept of Home Sub events
+  steps:
+  - intent: event_information_Decept_of_Home_subevents
+  - action: utter_Decept_of_Home_subevents
+
+- story: user asks for the registration link for Decept of Home
+  steps:
+  - intent: event_registration_Decept_of_Home
+  - action: utter_Decept_of_Home_Registration
+
+- story: user asks for the venue for Decept of Home
+  steps:
+  - intent: event_venue_Decept_of_Home
+  - action: utter_Decept_of_Home_venue
+
+- story: user asks for the contact details for Decept of Home
+  steps:
+  - intent: event_contact_details_Decept_of_Home
+  - action: utter_Decept_of_Home_contact_details
+
+- story: user asks for the image of Decept of Home
+  steps:
+  - intent: event_image_Decept_of_Home
+  - action: utter_Decept_of_Home_image
+
+- story: user asks for Match n Engage information
+  steps:
+  - intent: event_information_Match_n_Engage
+  - action: utter_Match_n_Engage
+
+- story: user asks for Match n Engage Sub events
+  steps:
+  - intent: event_information_Match_n_Engage_subevents
+  - action: utter_Match_n_Engage_subevents
+
+- story: user asks for the registration link for Match n Engage
+  steps:
+  - intent: event_registration_Match_n_Engage
+  - action: utter_Match_n_Engage_Registration
+
+- story: user asks for the venue for Match n Engage
+  steps:
+  - intent: event_venue_Match_n_Engage
+  - action: utter_Match_n_Engage_venue
+
+- story: user asks for the contact details for Match n Engage
+  steps:
+  - intent: event_contact_details_Match_n_Engage
+  - action: utter_Match_n_Engage_contact_details
+
+- story: user asks for the image of Match n Engage
+  steps:
+  - intent: event_image_Match_n_Engage
+  - action: utter_Match_n_Engage_image
+
+- story: user asks for Meep Mop information
+  steps:
+  - intent: event_information_Meep_Mop
+  - action: utter_Meep_Mop
+
+- story: user asks for Meep Mop Sub events
+  steps:
+  - intent: event_information_Meep_Mop_subevents
+  - action: utter_Meep_Mop_subevents
+
+- story: user asks for the registration link for Meep Mop
+  steps:
+  - intent: event_registration_Meep_Mop
+  - action: utter_Meep_Mop_Registration
+
+- story: user asks for the venue for Meep Mop
+  steps:
+  - intent: event_venue_Meep_Mop
+  - action: utter_Meep_Mop_venue
+
+- story: user asks for the contact details for Meep Mop
+  steps:
+  - intent: event_contact_details_Meep_Mop
+  - action: utter_Meep_Mop_contact_details
+
+- story: user asks for the image of Meep Mop
+  steps:
+  - intent: event_image_Meep_Mop
+  - action: utter_Meep_Mop_image
+
+- story: user asks for the sample arena for Bumble See
+  steps:
+  - intent: event_sample_arena_Bumble_See
+  - action: utter_Bumble_See_sample_arena
+
+- story: user asks for the sample arena for Decept of Home
+  steps:
+  - intent: event_sample_arena_Decept_of_Home
+  - action: utter_Decept_of_Home_sample_arena
+
+- story: user asks for the sample arena for Meep Mop
+  steps:
+  - intent: event_sample_arena_Meep_Mop
+  - action: utter_Meep_Mop_sample_arena
+
+- story: user asks for the sample arena for Match n Engage
+  steps:
+  - intent: event_sample_arena_Match_n_Engage
+  - action: utter_Match_n_Engage_sample_arena
+
+- story: user asks about Bumble See Sample Arena
+  steps:
+  - intent: event_description_sample_arena_Bumble_See
+  - action: utter_Bumble_See_description_sample_arena
+
+- story: user asks about Decept of Home Sample Arena
+  steps:
+  - intent: event_description_sample_arena_Decept_of_Home
+  - action: utter_Decept_of_Home_description_sample_arena
+
+- story: user asks about Match n Engage Sample Arena
+  steps:
+  - intent: event_description_sample_arena_Match_n_Engage
+  - action: utter_Match_n_Engage_description_sample_arena
+
+- story: user asks about Meep Mop Sample Arena
+  steps:
+  - intent: event_description_sample_arena_Meep_Mop
+  - action: utter_Meep_Mop_description_sample_arena
+
