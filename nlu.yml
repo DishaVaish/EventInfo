@@ -232,3 +232,2221 @@ nlu:
     - sound off
     - v off
     - voice deactivate
+
+- intent: current_events
+  examples: |
+    - What are the events happening at our college?
+    - Tell me about the current events at our college.
+    - Are there any upcoming events in the college?
+    - I want to know about the events taking place in our college.
+    - Give me information about the latest college events.
+    - Can you provide details on the ongoing events?
+    - Share updates about the college events.
+    - What's happening on campus in terms of events?
+    - Any interesting events happening around here?
+    - Could you list the events occurring in our college?
+    - I'm interested in the events at our college. Tell me more.
+    - Are there any events scheduled for this week?
+    - Tell me the agenda for upcoming college events.
+    - Inform me about the college's event calendar.
+    - I'd like to stay updated on the college events. What's new?
+    - Can you provide a summary of the college events?
+    - Give me the scoop on the events in our institution.
+    - I need information about events on campus.
+    - Any interesting happenings in the college right now?
+    - What's on the schedule for college events?
+    - What's happening in the college?
+    - Any events at the college?
+    - Tell me about the college events.
+    - Update me on college activities.
+    - College events?
+    - What events are going on?
+    - What's on the college events calendar?
+    - Can you share info on college events?
+    - Inform me about college happenings.
+    - Anything interesting in the college?
+    - College event updates?
+    - Any news about college events?
+    - College activities?
+    - Upcoming college events?
+    - What's new at the college?
+    - I'm curious about college events.
+    - Tell me about events in the college.
+    - What's the latest at the college?
+    - College event information, please.
+    - College news and events?
+
+- intent: event_information_Bot_Rush
+  examples: |
+    - What can you tell me about Bot Rush?
+    - Give me some info on Bot Rush.
+    - Tell me about the Bot Rush event.
+    - What's happening at Bot Rush?
+    - I want to know more about Bot Rush.
+    - Provide details for Bot Rush.
+    - Share info about the Bot Rush event.
+    - Can you tell me about Bot Rush?
+    - What's the deal with Bot Rush?
+    - Tell me something about Bot Rush.
+    - Describe Bot Rush.
+    - I'm interested in Bot Rush. Tell me more.
+    - Share some details on Bot Rush.
+    - What's special about Bot Rush?
+    - Explain Bot Rush to me.
+    - I'd like to learn about Bot Rush.
+    - Can you provide an overview of Bot Rush?
+    - I want to get the scoop on Bot Rush.
+    - I need information on Bot Rush.
+    - Bot Rush details, please.
+    - Brief me on Bot Rush.
+    - Tell me about Bot Rush.
+    - What's Bot Rush about?
+    - Give me info on Bot Rush.
+    - Explain Bot Rush to me.
+    - I want to know more about Bot Rush.
+    - What's the deal with Bot Rush?
+    - Tell me something about Bot Rush.
+    - Describe Bot Rush.
+    - I'm interested in Bot Rush. Tell me more.
+    - Share some details on Bot Rush.
+    - What's special about Bot Rush?
+    - What's happening at Bot Rush?
+    - Can you tell me about Bot Rush?
+    - Tell me about the event Bot Rush.
+    - Can you provide an overview of Bot Rush?
+    - I want to get the scoop on Bot Rush.
+    - I need information on Bot Rush.
+    - Bot Rush details, please.
+    - Brief me on Bot Rush.
+
+- intent: event_information_Bot_Rush_subevents
+  examples: |
+    - What are the sub-events of Bot Rush?
+    - Tell me about the sub-events in Bot Rush.
+    - Give me details on Bot Rush sub-events.
+    - Can you list the sub-events of Bot Rush?
+    - I want to know about the activities in Bot Rush.
+    - What are the smaller events within Bot Rush?
+    - Inform me about Bot Rush sub-activities.
+    - Share info on Bot Rush event components.
+    - Can you provide information on Bot Rush sub-events?
+    - What's the schedule for Bot Rush sub-events?
+    - Tell me the agenda for Bot Rush sub-activities.
+    - List the sub-events of Bot Rush.
+    - I'm interested in Bot Rush sub-events. Tell me more.
+    - What are the sub-components of Bot Rush?
+    - Explain the sub-events in Bot Rush.
+    - What are the smaller parts of Bot Rush?
+    - Can you tell me about the sub-activities in Bot Rush?
+    - Share some details on Bot Rush sub-events.
+    - What's special about Bot Rush sub-events?
+    - Can you provide an overview of Bot Rush sub-events?
+    - Tell me about the sub-events of Bot Rush.
+    - What are the smaller events within Bot Rush?
+    - Explain the sub-events in Bot Rush.
+    - I want to know more about Bot Rush sub-events.
+    - What's happening in Bot Rush in detail?
+    - Can you share details on Bot Rush sub-events?
+    - List the sub-events of Bot Rush.
+    - Can you provide information on Bot Rush sub-events?
+    - Describe the components of Bot Rush.
+    - I'm interested in Bot Rush sub-events. Tell me more.
+    - What's the agenda for Bot Rush sub-events?
+    - Inform me about the sub-activities in Bot Rush.
+    - Give me the scoop on Bot Rush sub-events.
+    - What's special about Bot Rush sub-events?
+    - Share some details on the sub-components of Bot Rush.
+    - Can you tell me about the sub-activities in Bot Rush?
+    - Tell me the sub-events within Bot Rush.
+    - Can you provide an overview of Bot Rush sub-events?
+    - Explain the smaller parts of Bot Rush.
+    - I need information on the sub-events of Bot Rush.
+
+- intent: event_registration_Bot_Rush
+  examples: |
+    - Give me the registration link for Bot Rush.
+    - How can I register for Bot Rush?
+    - Where can I find the registration link for Bot Rush?
+    - Give me the registration details for Bot Rush.
+    - Can you share the registration link for Bot Rush?
+    - I want to sign up for Bot Rush. How do I do that?
+    - Provide the Bot Rush event registration link, please.
+    - Where do I go to register for Bot Rush?
+    - Tell me how to enroll in Bot Rush.
+    - What's the process for registering for Bot Rush?
+    - Is there a way to RSVP for Bot Rush?
+    - How can I get access to Bot Rush?
+    - Share the registration information for Bot Rush.
+    - Can you give me the link to register for Bot Rush?
+    - I'm interested in attending Bot Rush. How do I register?
+    - What's the registration procedure for Bot Rush?
+    - I'd like to participate in Bot Rush. How do I sign up?
+    - Where can I find the Bot Rush registration form?
+    - How do I get a spot in Bot Rush?
+    - What's the sign-up process for Bot Rush?
+    - Share the registration page for Bot Rush.
+    - How do I register for Bot Rush?
+    - Where's the link to register for Bot Rush?
+    - Give me the registration link for Bot Rush.
+    - Can you share the Bot Rush registration link?
+    - How can I sign up for Bot Rush?
+    - Provide the registration info for Bot Rush, please.
+    - How to enroll in Bot Rush?
+    - What's the process to register for Bot Rush?
+    - How do I RSVP for Bot Rush?
+    - How to get access to Bot Rush?
+    - Share the Bot Rush registration details.
+    - Where's the registration link for Bot Rush?
+    - I want to attend Bot Rush. How do I register?
+    - What's the registration procedure for Bot Rush?
+    - How to participate in Bot Rush? Sign-up info?
+    - Where's the Bot Rush registration form?
+    - How to secure a spot in Bot Rush?
+    - What's the sign-up process for Bot Rush?
+    - Share the registration page for Bot Rush.
+    - Bot Rush registration link, please.
+    - Registration link for Bot Rush event?
+
+- intent: event_venue_Bot_Rush
+  examples: |
+    - What is the venue for event Bot Rush?
+    - Where is the event Bot Rush taking place?
+    - Can you tell me the location of the Bot Rush event?
+    - What's the venue for Bot Rush?
+    - Where will Bot Rush be held?
+    - I'd like to know the place for Bot Rush.
+    - Inform me about the venue for the Bot Rush event.
+    - Where can I find Bot Rush? What's the address?
+    - Tell me the location of the Bot Rush event.
+    - What's the address for Bot Rush?
+    - Give me details about the Bot Rush event's venue.
+    - Where's the Bot Rush event happening?
+    - Can you provide the venue information for Bot Rush?
+    - I need to know where Bot Rush is happening.
+    - Share the venue details for Bot Rush.
+    - What's the location for Bot Rush?
+    - Please tell me the venue for the Bot Rush event.
+    - Where should I go for Bot Rush?
+    - Provide me with the venue details for Bot Rush.
+    - Tell me the place where Bot Rush will be held.
+    - I'm looking for information about the Bot Rush venue.
+    - Where's the Bot Rush event venue?
+    - Where is Bot Rush?
+    - Bot Rush venue?
+    - Location for Bot Rush?
+    - Where for Bot Rush?
+    - Venue of Bot Rush?
+    - Bot Rush's place?
+    - Address for Bot Rush?
+    - Where's Bot Rush?
+    - Tell me Bot Rush's venue.
+    - Venue Bot Rush?
+    - Where's Bot Rush held?
+    - Bot Rush location?
+    - Place for Bot Rush?
+    - What's the venue for Bot Rush?
+    - Venue info for Bot Rush?
+    - Where exactly for Bot Rush?
+    - Address Bot Rush?
+    - Location of Bot Rush?
+    - Where's the event Bot Rush?
+    - Bot Rush place?
+
+- intent: event_contact_details_Bot_Rush
+  examples: |
+    - How can I contact for Bot Rush?
+    - What's the contact information for Bot Rush?
+    - I need to get in touch regarding Bot Rush. How?
+    - Can you provide contact details for Bot Rush?
+    - How do I reach out about Bot Rush?
+    - Where can I find contact info for Bot Rush?
+    - Give me the contact details for Bot Rush.
+    - I want to contact someone about Bot Rush. How?
+    - How can I get in contact regarding Bot Rush?
+    - Contact information for Bot Rush, please.
+    - How do I reach the organizers of Bot Rush?
+    - What's the contact info for Bot Rush organizers?
+    - Where can I find Bot Rush's contact information?
+    - How can I reach out to the Bot Rush team?
+    - What are the contact details for the Bot Rush event?
+    - Tell me how to contact regarding Bot Rush.
+    - I'd like to inquire about Bot Rush. How can I do that?
+    - Share the contact information for Bot Rush.
+    - How to contact Bot Rush organizers?
+    - Can you provide the contact info for Bot Rush?
+    - What's the best way to contact about Bot Rush?
+    - How do I contact someone responsible for Bot Rush?
+    - Where do I find contact details for Bot Rush?
+    - How to reach out regarding Bot Rush?
+    - I want to get in touch with the Bot Rush organizers.
+    - What's the contact information for Bot Rush support?
+    - How can I ask questions about Bot Rush?
+    - Contact info for Bot Rush inquiries?
+    - How can I contact the team behind Bot Rush?
+    - What's the contact email for Bot Rush?
+    - How do I contact the Bot Rush coordinators?
+    - I need to speak with someone regarding Bot Rush.
+    - How to get in touch about Bot Rush?
+    - Can you give me contact details for Bot Rush inquiries?
+    - What's the contact number for Bot Rush?
+    - How do I contact the Bot Rush team for assistance?
+    - Where can I find Bot Rush's contact email?
+    - How to inquire about Bot Rush?
+    - Contact info for Bot Rush questions?
+    - How can I reach out to Bot Rush organizers for help?
+    - What's the contact phone number for Bot Rush?
+
+- intent: event_image_Bot_Rush
+  examples: |
+    - Can you show me some images for Bot Rush?
+    - I'd like to see pictures from Bot Rush.
+    - Show me photos of Bot Rush.
+    - Are there any images available for Bot Rush?
+    - Display images from the Bot Rush event.
+    - Share some visuals of Bot Rush.
+    - Can I view pictures of Bot Rush?
+    - Show me some event photos for Bot Rush.
+    - I want to see what Bot Rush looks like. Images?
+    - Are there any event snapshots for Bot Rush?
+    - Can you provide images from the Bot Rush event?
+    - I'm curious about Bot Rush. Show me images.
+    - Show me some pictures related to Bot Rush.
+    - I'd love to see event pictures for Bot Rush.
+    - Do you have any photos of Bot Rush?
+    - Display some Bot Rush event images, please.
+    - I'm interested in Bot Rush visuals. Show me.
+    - Are there any event photographs for Bot Rush?
+    - Can you share event-related images of Bot Rush?
+    - Show me what Bot Rush looks like with images.
+
+- intent: event_organizer_Bot_Rush
+  examples: |
+    - Who is organizing the event Bot Rush?
+    - Tell me about the organizers of Bot Rush.
+    - Can you provide information about Bot Rush's organizers?
+    - Who's in charge of the Bot Rush event?
+    - I'd like to know who's organizing Bot Rush.
+    - Who's responsible for arranging Bot Rush?
+    - Provide details about the Bot Rush event organizers.
+    - Tell me the names of the Bot Rush organizers.
+    - Who's behind the planning of Bot Rush?
+    - Share information about the event organizers for Bot Rush.
+    - Who's managing the Bot Rush event?
+    - Can you tell me about the team organizing Bot Rush?
+    - Who's coordinating the Bot Rush event?
+    - Give me details on the people behind Bot Rush.
+    - Who are the organizers of Bot Rush?
+    - Who's taking care of the Bot Rush arrangements?
+    - Can you inform me about the Bot Rush event's organizers?
+    - Who's handling the logistics for Bot Rush?
+    - Tell me about the team responsible for Bot Rush.
+    - Who's leading the organization of Bot Rush?
+    - Share information about Bot Rush's event planners.
+
+- intent: event_information_Bumble_See
+  examples: |
+    - What can you tell me about Bumble See?
+    - Give me some info on Bumble See.
+    - Tell me about the Bumble See event.
+    - What's happening at Bumble See?
+    - I want to know more about Bumble See.
+    - Provide details for Bumble See.
+    - Share info about the Bumble See event.
+    - Can you tell me about Bumble See?
+    - What's the deal with Bumble See?
+    - Tell me something about Bumble See.
+    - Describe Bumble See.
+    - I'm interested in Bumble See. Tell me more.
+    - Share some details on Bumble See.
+    - What's special about Bumble See?
+    - Explain Bumble See to me.
+    - I'd like to learn about Bumble See.
+    - Can you provide an overview of Bumble See?
+    - I want to get the scoop on Bumble See.
+    - I need information on Bumble See.
+    - Bumble See details, please.
+    - Brief me on Bumble See.
+    - Tell me about Bumble See.
+    - What's Bumble See about?
+    - Give me info on Bumble See.
+    - Explain Bumble See to me.
+    - I want to know more about Bumble See.
+    - What's the deal with Bumble See?
+    - Tell me something about Bumble See.
+    - Describe Bumble See.
+    - I'm interested in Bumble See. Tell me more.
+    - Share some details on Bumble See.
+    - What's special about Bumble See?
+    - What's happening at Bumble See?
+    - Can you tell me about Bumble See?
+    - Tell me about the event Bumble See.
+    - Can you provide an overview of Bumble See?
+    - I want to get the scoop on Bumble See.
+    - I need information on Bumble See.
+    - Bumble See details, please.
+    - Brief me on Bumble See.
+
+- intent: event_information_Bumble_See_subevents
+  examples: |
+    - What are the sub-events of Bumble See?
+    - Tell me about the sub-events in Bumble See.
+    - Give me details on Bumble See sub-events.
+    - Can you list the sub-events of Bumble See?
+    - I want to know about the activities in Bumble See.
+    - What are the smaller events within Bumble See?
+    - Inform me about Bumble See sub-activities.
+    - Share info on Bumble See event components.
+    - Can you provide information on Bumble See sub-events?
+    - What's the schedule for Bumble See sub-events?
+    - Tell me the agenda for Bumble See sub-activities.
+    - List the sub-events of Bumble See.
+    - I'm interested in Bumble See sub-events. Tell me more.
+    - What are the sub-components of Bumble See?
+    - Explain the sub-events in Bumble See.
+    - What are the smaller parts of Bumble See?
+    - Can you tell me about the sub-activities in Bumble See?
+    - Share some details on Bumble See sub-events.
+    - What's special about Bumble See sub-events?
+    - Can you provide an overview of Bumble See sub-events?
+    - Tell me about the sub-events of Bumble See.
+    - What are the smaller events within Bumble See?
+    - Explain the sub-events in Bumble See.
+    - I want to know more about Bumble See sub-events.
+    - What's happening in Bumble See in detail?
+    - Can you share details on Bumble See sub-events?
+    - List the sub-events of Bumble See.
+    - Can you provide information on Bumble See sub-events?
+    - Describe the components of Bumble See.
+    - I'm interested in Bumble See sub-events. Tell me more.
+    - What's the agenda for Bumble See sub-events?
+    - Inform me about the sub-activities in Bumble See.
+    - Give me the scoop on Bumble See sub-events.
+    - What's special about Bumble See sub-events?
+    - Share some details on the sub-components of Bumble See.
+    - Can you tell me about the sub-activities in Bumble See?
+    - Tell me the sub-events within Bumble See.
+    - Can you provide an overview of Bumble See sub-events?
+    - Explain the smaller parts of Bumble See.
+    - I need information on the sub-events of Bumble See.
+
+- intent: event_registration_Bumble_See
+  examples: |
+    - Give me the registration link for Bumble See.
+    - How can I register for Bumble See?
+    - Where can I find the registration link for Bumble See?
+    - Give me the registration details for Bumble See.
+    - Can you share the registration link for Bumble See?
+    - I want to sign up for Bumble See. How do I do that?
+    - Provide the Bumble See event registration link, please.
+    - Where do I go to register for Bumble See?
+    - Tell me how to enroll in Bumble See.
+    - What's the process for registering for Bumble See?
+    - Is there a way to RSVP for Bumble See?
+    - How can I get access to Bumble See?
+    - Share the registration information for Bumble See.
+    - Can you give me the link to register for Bumble See?
+    - I'm interested in attending Bumble See. How do I register?
+    - What's the registration procedure for Bumble See?
+    - I'd like to participate in Bumble See. How do I sign up?
+    - Where can I find the Bumble See registration form?
+    - How do I get a spot in Bumble See?
+    - What's the sign-up process for Bumble See?
+    - Share the registration page for Bumble See.
+    - How do I register for Bumble See?
+    - Where's the link to register for Bumble See?
+    - Give me the registration link for Bumble See.
+    - Can you share the Bumble See registration link?
+    - How can I sign up for Bumble See?
+    - Provide the registration info for Bumble See, please.
+    - How to enroll in Bumble See?
+    - What's the process to register for Bumble See?
+    - How do I RSVP for Bumble See?
+    - How to get access to Bumble See?
+    - Share the Bumble See registration details.
+    - Where's the registration link for Bumble See?
+    - I want to attend Bumble See. How do I register?
+    - What's the registration procedure for Bumble See?
+    - How to participate in Bumble See? Sign-up info?
+    - Where's the Bumble See registration form?
+    - How to secure a spot in Bumble See?
+    - What's the sign-up process for Bumble See?
+    - Share the registration page for Bumble See.
+    - Bumble See registration link, please.
+    - Registration link for Bumble See event?
+
+- intent: event_venue_Bumble_See
+  examples: |
+    - What is the venue for event Bumble See?
+    - Where is the event Bumble See taking place?
+    - Can you tell me the location of the Bumble See event?
+    - What's the venue for Bumble See?
+    - Where will Bumble See be held?
+    - I'd like to know the place for Bumble See.
+    - Inform me about the venue for the Bumble See event.
+    - Where can I find Bumble See? What's the address?
+    - Tell me the location of the Bumble See event.
+    - What's the address for Bumble See?
+    - Give me details about the Bumble See event's venue.
+    - Where's the Bumble See event happening?
+    - Can you provide the venue information for Bumble See?
+    - I need to know where Bumble See is happening.
+    - Share the venue details for Bumble See.
+    - What's the location for Bumble See?
+    - Please tell me the venue for the Bumble See event.
+    - Where should I go for Bumble See?
+    - Provide me with the venue details for Bumble See.
+    - Tell me the place where Bumble See will be held.
+    - I'm looking for information about the Bumble See venue.
+    - Where's the Bumble See event venue?
+    - Where is Bumble See?
+    - Bumble See venue?
+    - Location for Bumble See?
+    - Where for Bumble See?
+    - Venue of Bumble See?
+    - Bumble See's place?
+    - Address for Bumble See?
+    - Where's Bumble See?
+    - Tell me Bumble See's venue.
+    - Venue Bumble See?
+    - Where's Bumble See held?
+    - Bumble See location?
+    - Place for Bumble See?
+    - What's the venue for Bumble See?
+    - Venue info for Bumble See?
+    - Where exactly for Bumble See?
+    - Address Bumble See?
+    - Location of Bumble See?
+    - Where's the event Bumble See?
+    - Bumble See place?
+
+- intent: event_contact_details_Bumble_See
+  examples: |
+    - How can I contact for Bumble See?
+    - What's the contact information for Bumble See?
+    - I need to get in touch regarding Bumble See. How?
+    - Can you provide contact details for Bumble See?
+    - How do I reach out about Bumble See?
+    - Where can I find contact info for Bumble See?
+    - Give me the contact details for Bumble See.
+    - I want to contact someone about Bumble See. How?
+    - How can I get in contact regarding Bumble See?
+    - Contact information for Bumble See, please.
+    - How do I reach the organizers of Bumble See?
+    - What's the contact info for Bumble See organizers?
+    - Where can I find Bumble See's contact information?
+    - How can I reach out to the Bumble See team?
+    - What are the contact details for the Bumble See event?
+    - Tell me how to contact regarding Bumble See.
+    - I'd like to inquire about Bumble See. How can I do that?
+    - Share the contact information for Bumble See.
+    - How to contact Bumble See organizers?
+    - Can you provide the contact info for Bumble See?
+    - What's the best way to contact about Bumble See?
+    - How do I contact someone responsible for Bumble See?
+    - Where do I find contact details for Bumble See?
+    - How to reach out regarding Bumble See?
+    - I want to get in touch with the Bumble See organizers.
+    - What's the contact information for Bumble See support?
+    - How can I ask questions about Bumble See?
+    - Contact info for Bumble See inquiries?
+    - How can I contact the team behind Bumble See?
+    - What's the contact email for Bumble See?
+    - How do I contact the Bumble See coordinators?
+    - I need to speak with someone regarding Bumble See.
+    - How to get in touch about Bumble See?
+    - Can you give me contact details for Bumble See inquiries?
+    - What's the contact number for Bumble See?
+    - How do I contact the Bumble See team for assistance?
+    - Where can I find Bumble See's contact email?
+    - How to inquire about Bumble See?
+    - Contact info for Bumble See questions?
+    - How can I reach out to Bumble See organizers for help?
+    - What's the contact phone number for Bumble See?
+
+- intent: event_image_Bumble_See
+  examples: |
+    - Can you show me some images for Bumble See?
+    - I'd like to see pictures from Bumble See.
+    - Show me photos of Bumble See.
+    - Are there any images available for Bumble See?
+    - Display images from the Bumble See event.
+    - Share some visuals of Bumble See.
+    - Can I view pictures of Bumble See?
+    - Show me some event photos for Bumble See.
+    - I want to see what Bumble See looks like. Images?
+    - Are there any event snapshots for Bumble See?
+    - Can you provide images from the Bumble See event?
+    - I'm curious about Bumble See. Show me images.
+    - Show me some pictures related to Bumble See.
+    - I'd love to see event pictures for Bumble See.
+    - Do you have any photos of Bumble See?
+    - Display some Bumble See event images, please.
+    - I'm interested in Bumble See visuals. Show me.
+    - Are there any event photographs for Bumble See?
+    - Can you share event-related images of Bumble See?
+    - Show me what Bumble See looks like with images.
+
+- intent: event_organizer_Bumble_See
+  examples: |
+    - Who is organizing the event Bumble See?
+    - Tell me about the organizers of Bumble See.
+    - Can you provide information about Bumble See's organizers?
+    - Who's in charge of the Bumble See event?
+    - I'd like to know who's organizing Bumble See.
+    - Who's responsible for arranging Bumble See?
+    - Provide details about the Bumble See event organizers.
+    - Tell me the names of the Bumble See organizers.
+    - Who's behind the planning of Bumble See?
+    - Share information about the event organizers for Bumble See.
+    - Who's managing the Bumble See event?
+    - Can you tell me about the team organizing Bumble See?
+    - Who's coordinating the Bumble See event?
+    - Give me details on the people behind Bumble See.
+    - Who are the organizers of Bumble See?
+    - Who's taking care of the Bumble See arrangements?
+    - Can you inform me about the Bumble See event's organizers?
+    - Who's handling the logistics for Bumble See?
+    - Tell me about the team responsible for Bumble See.
+    - Who's leading the organization of Bumble See?
+    - Share information about Bumble See's event planners.
+
+- intent: event_information_Match_n_Engage
+  examples: |
+    - What can you tell me about Match n Engage?
+    - Give me some info on Match n Engage.
+    - Tell me about the Match n Engage event.
+    - What's happening at Match n Engage?
+    - I want to know more about Match n Engage.
+    - Provide details for Match n Engage.
+    - Share info about the Match n Engage event.
+    - Can you tell me about Match n Engage?
+    - What's the deal with Match n Engage?
+    - Tell me something about Match n Engage.
+    - Describe Match n Engage.
+    - I'm interested in Match n Engage. Tell me more.
+    - Share some details on Match n Engage.
+    - What's special about Match n Engage?
+    - Explain Match n Engage to me.
+    - I'd like to learn about Match n Engage.
+    - Can you provide an overview of Match n Engage?
+    - I want to get the scoop on Match n Engage.
+    - I need information on Match n Engage.
+    - Match n Engage details, please.
+    - Brief me on Match n Engage.
+    - Tell me about Match n Engage.
+    - What's Match n Engage about?
+    - Give me info on Match n Engage.
+    - Explain Match n Engage to me.
+    - I want to know more about Match n Engage.
+    - What's the deal with Match n Engage?
+    - Tell me something about Match n Engage.
+    - Describe Match n Engage.
+    - I'm interested in Match n Engage. Tell me more.
+    - Share some details on Match n Engage.
+    - What's special about Match n Engage?
+    - What's happening at Match n Engage?
+    - Can you tell me about Match n Engage?
+    - Tell me about the event Match n Engage.
+    - Can you provide an overview of Match n Engage?
+    - I want to get the scoop on Match n Engage.
+    - I need information on Match n Engage.
+    - Match n Engage details, please.
+    - Brief me on Match n Engage.
+
+- intent: event_information_Match_n_Engage_subevents
+  examples: |
+    - What are the sub-events of Match n Engage?
+    - Tell me about the sub-events in Match n Engage.
+    - Give me details on Match n Engage sub-events.
+    - Can you list the sub-events of Match n Engage?
+    - I want to know about the activities in Match n Engage.
+    - What are the smaller events within Match n Engage?
+    - Inform me about Match n Engage sub-activities.
+    - Share info on Match n Engage event components.
+    - Can you provide information on Match n Engage sub-events?
+    - What's the schedule for Match n Engage sub-events?
+    - Tell me the agenda for Match n Engage sub-activities.
+    - List the sub-events of Match n Engage.
+    - I'm interested in Match n Engage sub-events. Tell me more.
+    - What are the sub-components of Match n Engage?
+    - Explain the sub-events in Match n Engage.
+    - What are the smaller parts of Match n Engage?
+    - Can you tell me about the sub-activities in Match n Engage?
+    - Share some details on Match n Engage sub-events.
+    - What's special about Match n Engage sub-events?
+    - Can you provide an overview of Match n Engage sub-events?
+    - Tell me about the sub-events of Match n Engage.
+    - What are the smaller events within Match n Engage?
+    - Explain the sub-events in Match n Engage.
+    - I want to know more about Match n Engage sub-events.
+    - What's happening in Match n Engage in detail?
+    - Can you share details on Match n Engage sub-events?
+    - List the sub-events of Match n Engage.
+    - Can you provide information on Match n Engage sub-events?
+    - Describe the components of Match n Engage.
+    - I'm interested in Match n Engage sub-events. Tell me more.
+    - What's the agenda for Match n Engage sub-events?
+    - Inform me about the sub-activities in Match n Engage.
+    - Give me the scoop on Match n Engage sub-events.
+    - What's special about Match n Engage sub-events?
+    - Share some details on the sub-components of Match n Engage.
+    - Can you tell me about the sub-activities in Match n Engage?
+    - Tell me the sub-events within Match n Engage.
+    - Can you provide an overview of Match n Engage sub-events?
+    - Explain the smaller parts of Match n Engage.
+    - I need information on the sub-events of Match n Engage.
+
+- intent: event_registration_Match_n_Engage
+  examples: |
+    - Give me the registration link for Match n Engage.
+    - How can I register for Match n Engage?
+    - Where can I find the registration link for Match n Engage?
+    - Give me the registration details for Match n Engage.
+    - Can you share the registration link for Match n Engage?
+    - I want to sign up for Match n Engage. How do I do that?
+    - Provide the Match n Engage event registration link, please.
+    - Where do I go to register for Match n Engage?
+    - Tell me how to enroll in Match n Engage.
+    - What's the process for registering for Match n Engage?
+    - Is there a way to RSVP for Match n Engage?
+    - How can I get access to Match n Engage?
+    - Share the registration information for Match n Engage.
+    - Can you give me the link to register for Match n Engage?
+    - I'm interested in attending Match n Engage. How do I register?
+    - What's the registration procedure for Match n Engage?
+    - I'd like to participate in Match n Engage. How do I sign up?
+    - Where can I find the Match n Engage registration form?
+    - How do I get a spot in Match n Engage?
+    - What's the sign-up process for Match n Engage?
+    - Share the registration page for Match n Engage.
+    - How do I register for Match n Engage?
+    - Where's the link to register for Match n Engage?
+    - Give me the registration link for Match n Engage.
+    - Can you share the Match n Engage registration link?
+    - How can I sign up for Match n Engage?
+    - Provide the registration info for Match n Engage, please.
+    - How to enroll in Match n Engage?
+    - What's the process to register for Match n Engage?
+    - How do I RSVP for Match n Engage?
+    - How to get access to Match n Engage?
+    - Share the Match n Engage registration details.
+    - Where's the registration link for Match n Engage?
+    - I want to attend Match n Engage. How do I register?
+    - What's the registration procedure for Match n Engage?
+    - How to participate in Match n Engage? Sign-up info?
+    - Where's the Match n Engage registration form?
+    - How to secure a spot in Match n Engage?
+    - What's the sign-up process for Match n Engage?
+    - Share the registration page for Match n Engage.
+    - Match n Engage registration link, please.
+    - Registration link for Match n Engage event?
+
+- intent: event_venue_Match_n_Engage
+  examples: |
+    - What is the venue for event Match n Engage?
+    - Where is the event Match n Engage taking place?
+    - Can you tell me the location of the Match n Engage event?
+    - What's the venue for Match n Engage?
+    - Where will Match n Engage be held?
+    - I'd like to know the place for Match n Engage.
+    - Inform me about the venue for the Match n Engage event.
+    - Where can I find Match n Engage? What's the address?
+    - Tell me the location of the Match n Engage event.
+    - What's the address for Match n Engage?
+    - Give me details about the Match n Engage event's venue.
+    - Where's the Match n Engage event happening?
+    - Can you provide the venue information for Match n Engage?
+    - I need to know where Match n Engage is happening.
+    - Share the venue details for Match n Engage.
+    - What's the location for Match n Engage?
+    - Please tell me the venue for the Match n Engage event.
+    - Where should I go for Match n Engage?
+    - Provide me with the venue details for Match n Engage.
+    - Tell me the place where Match n Engage will be held.
+    - I'm looking for information about the Match n Engage venue.
+    - Where's the Match n Engage event venue?
+    - Where is Match n Engage?
+    - Match n Engage venue?
+    - Location for Match n Engage?
+    - Where for Match n Engage?
+    - Venue of Match n Engage?
+    - Match n Engage's place?
+    - Address for Match n Engage?
+    - Where's Match n Engage?
+    - Tell me Match n Engage's venue.
+    - Venue Match n Engage?
+    - Where's Match n Engage held?
+    - Match n Engage location?
+    - Place for Match n Engage?
+    - What's the venue for Match n Engage?
+    - Venue info for Match n Engage?
+    - Where exactly for Match n Engage?
+    - Address Match n Engage?
+    - Location of Match n Engage?
+    - Where's the event Match n Engage?
+    - Match n Engage place?
+
+- intent: event_contact_details_Match_n_Engage
+  examples: |
+    - How can I contact for Match n Engage?
+    - What's the contact information for Match n Engage?
+    - I need to get in touch regarding Match n Engage. How?
+    - Can you provide contact details for Match n Engage?
+    - How do I reach out about Match n Engage?
+    - Where can I find contact info for Match n Engage?
+    - Give me the contact details for Match n Engage.
+    - I want to contact someone about Match n Engage. How?
+    - How can I get in contact regarding Match n Engage?
+    - Contact information for Match n Engage, please.
+    - How do I reach the organizers of Match n Engage?
+    - What's the contact info for Match n Engage organizers?
+    - Where can I find Match n Engage's contact information?
+    - How can I reach out to the Match n Engage team?
+    - What are the contact details for the Match n Engage event?
+    - Tell me how to contact regarding Match n Engage.
+    - I'd like to inquire about Match n Engage. How can I do that?
+    - Share the contact information for Match n Engage.
+    - How to contact Match n Engage organizers?
+    - Can you provide the contact info for Match n Engage?
+    - What's the best way to contact about Match n Engage?
+    - How do I contact someone responsible for Match n Engage?
+    - Where do I find contact details for Match n Engage?
+    - How to reach out regarding Match n Engage?
+    - I want to get in touch with the Match n Engage organizers.
+    - What's the contact information for Match n Engage support?
+    - How can I ask questions about Match n Engage?
+    - Contact info for Match n Engage inquiries?
+    - How can I contact the team behind Match n Engage?
+    - What's the contact email for Match n Engage?
+    - How do I contact the Match n Engage coordinators?
+    - I need to speak with someone regarding Match n Engage.
+    - How to get in touch about Match n Engage?
+    - Can you give me contact details for Match n Engage inquiries?
+    - What's the contact number for Match n Engage?
+    - How do I contact the Match n Engage team for assistance?
+    - Where can I find Match n Engage's contact email?
+    - How to inquire about Match n Engage?
+    - Contact info for Match n Engage questions?
+    - How can I reach out to Match n Engage organizers for help?
+    - What's the contact phone number for Match n Engage?
+
+- intent: event_image_Match_n_Engage
+  examples: |
+    - Can you show me some images for Match n Engage?
+    - I'd like to see pictures from Match n Engage.
+    - Show me photos of Match n Engage.
+    - Are there any images available for Match n Engage?
+    - Display images from the Match n Engage event.
+    - Share some visuals of Match n Engage.
+    - Can I view pictures of Match n Engage?
+    - Show me some event photos for Match n Engage.
+    - I want to see what Match n Engage looks like. Images?
+    - Are there any event snapshots for Match n Engage?
+    - Can you provide images from the Match n Engage event?
+    - I'm curious about Match n Engage. Show me images.
+    - Show me some pictures related to Match n Engage.
+    - I'd love to see event pictures for Match n Engage.
+    - Do you have any photos of Match n Engage?
+    - Display some Match n Engage event images, please.
+    - I'm interested in Match n Engage visuals. Show me.
+    - Are there any event photographs for Match n Engage?
+    - Can you share event-related images of Match n Engage?
+    - Show me what Match n Engage looks like with images.
+
+- intent: event_organizer_Match_n_Engage
+  examples: |
+    - Who is organizing the event Match n Engage?
+    - Tell me about the organizers of Match n Engage.
+    - Can you provide information about Match n Engage's organizers?
+    - Who's in charge of the Match n Engage event?
+    - I'd like to know who's organizing Match n Engage.
+    - Who's responsible for arranging Match n Engage?
+    - Provide details about the Match n Engage event organizers.
+    - Tell me the names of the Match n Engage organizers.
+    - Who's behind the planning of Match n Engage?
+    - Share information about the event organizers for Match n Engage.
+    - Who's managing the Match n Engage event?
+    - Can you tell me about the team organizing Match n Engage?
+    - Who's coordinating the Match n Engage event?
+    - Give me details on the people behind Match n Engage.
+    - Who are the organizers of Match n Engage?
+    - Who's taking care of the Match n Engage arrangements?
+    - Can you inform me about the Match n Engage event's organizers?
+    - Who's handling the logistics for Match n Engage?
+    - Tell me about the team responsible for Match n Engage.
+    - Who's leading the organization of Match n Engage?
+    - Share information about Match n Engage's event planners.
+
+- intent: event_information_Decept_Of_Home
+  examples: |
+    - What can you tell me about Decept of Home?
+    - Give me some info on Decept of Home.
+    - Tell me about the Decept of Home event.
+    - What's happening at Decept of Home?
+    - I want to know more about Decept of Home.
+    - Provide details for Decept of Home.
+    - Share info about the Decept of Home event.
+    - Can you tell me about Decept of Home?
+    - What's the deal with Decept of Home?
+    - Tell me something about Decept of Home.
+    - Describe Decept of Home.
+    - I'm interested in Decept of Home. Tell me more.
+    - Share some details on Decept of Home.
+    - What's special about Decept of Home?
+    - Explain Decept of Home to me.
+    - I'd like to learn about Decept of Home.
+    - Can you provide an overview of Decept of Home?
+    - I want to get the scoop on Decept of Home.
+    - I need information on Decept of Home.
+    - Decept of Home details, please.
+    - Brief me on Decept of Home.
+    - Tell me about Decept of Home.
+    - What's Decept of Home about?
+    - Give me info on Decept of Home.
+    - Explain Decept of Home to me.
+    - I want to know more about Decept of Home.
+    - What's the deal with Decept of Home?
+    - Tell me something about Decept of Home.
+    - Describe Decept of Home.
+    - I'm interested in Decept of Home. Tell me more.
+    - Share some details on Decept of Home.
+    - What's special about Decept of Home?
+    - What's happening at Decept of Home?
+    - Can you tell me about Decept of Home?
+    - Tell me about the event Decept of Home.
+    - Can you provide an overview of Decept of Home?
+    - I want to get the scoop on Decept of Home.
+    - I need information on Decept of Home.
+    - Decept of Home details, please.
+    - Brief me on Decept of Home.
+
+- intent: event_information_Decept_Of_Home_subevents
+  examples: |
+    - What are the sub-events of Decept of Home?
+    - Tell me about the sub-events in Decept of Home.
+    - Give me details on Decept of Home sub-events.
+    - Can you list the sub-events of Decept of Home?
+    - I want to know about the activities in Decept of Home.
+    - What are the smaller events within Decept of Home?
+    - Inform me about Decept of Home sub-activities.
+    - Share info on Decept of Home event components.
+    - Can you provide information on Decept of Home sub-events?
+    - What's the schedule for Decept of Home sub-events?
+    - Tell me the agenda for Decept of Home sub-activities.
+    - List the sub-events of Decept of Home.
+    - I'm interested in Decept of Home sub-events. Tell me more.
+    - What are the sub-components of Decept of Home?
+    - Explain the sub-events in Decept of Home.
+    - What are the smaller parts of Decept of Home?
+    - Can you tell me about the sub-activities in Decept of Home?
+    - Share some details on Decept of Home sub-events.
+    - What's special about Decept of Home sub-events?
+    - Can you provide an overview of Decept of Home sub-events?
+    - Tell me about the sub-events of Decept of Home.
+    - What are the smaller events within Decept of Home?
+    - Explain the sub-events in Decept of Home.
+    - I want to know more about Decept of Home sub-events.
+    - What's happening in Decept of Home in detail?
+    - Can you share details on Decept of Home sub-events?
+    - List the sub-events of Decept of Home.
+    - Can you provide information on Decept of Home sub-events?
+    - Describe the components of Decept of Home.
+    - I'm interested in Decept of Home sub-events. Tell me more.
+    - What's the agenda for Decept of Home sub-events?
+    - Inform me about the sub-activities in Decept of Home.
+    - Give me the scoop on Decept of Home sub-events.
+    - What's special about Decept of Home sub-events?
+    - Share some details on the sub-components of Decept of Home.
+    - Can you tell me about the sub-activities in Decept of Home?
+    - Tell me the sub-events within Decept of Home.
+    - Can you provide an overview of Decept of Home sub-events?
+    - Explain the smaller parts of Decept of Home.
+    - I need information on the sub-events of Decept of Home.
+
+- intent: event_registration_Decept_Of_Home
+  examples: |
+    - Give me the registration link for Decept of Home.
+    - How can I register for Decept of Home?
+    - Where can I find the registration link for Decept of Home?
+    - Give me the registration details for Decept of Home.
+    - Can you share the registration link for Decept of Home?
+    - I want to sign up for Decept of Home. How do I do that?
+    - Provide the Decept of Home event registration link, please.
+    - Where do I go to register for Decept of Home?
+    - Tell me how to enroll in Decept of Home.
+    - What's the process for registering for Decept of Home?
+    - Is there a way to RSVP for Decept of Home?
+    - How can I get access to Decept of Home?
+    - Share the registration information for Decept of Home.
+    - Can you give me the link to register for Decept of Home?
+    - I'm interested in attending Decept of Home. How do I register?
+    - What's the registration procedure for Decept of Home?
+    - I'd like to participate in Decept of Home. How do I sign up?
+    - Where can I find the Decept of Home registration form?
+    - How do I get a spot in Decept of Home?
+    - What's the sign-up process for Decept of Home?
+    - Share the registration page for Decept of Home.
+    - How do I register for Decept of Home?
+    - Where's the link to register for Decept of Home?
+    - Give me the registration link for Decept of Home.
+    - Can you share the Decept of Home registration link?
+    - How can I sign up for Decept of Home?
+    - Provide the registration info for Decept of Home, please.
+    - How to enroll in Decept of Home?
+    - What's the process to register for Decept of Home?
+    - How do I RSVP for Decept of Home?
+    - How to get access to Decept of Home?
+    - Share the Decept of Home registration details.
+    - Where's the registration link for Decept of Home?
+    - I want to attend Decept of Home. How do I register?
+    - What's the registration procedure for Decept of Home?
+    - How to participate in Decept of Home? Sign-up info?
+    - Where's the Decept of Home registration form?
+    - How to secure a spot in Decept of Home?
+    - What's the sign-up process for Decept of Home?
+    - Share the registration page for Decept of Home.
+    - Decept of Home registration link, please.
+    - Registration link for Decept of Home event?
+
+- intent: event_venue_Decept_Of_Home
+  examples: |
+    - What is the venue for event Decept of Home?
+    - Where is the event Decept of Home taking place?
+    - Can you tell me the location of the Decept of Home event?
+    - What's the venue for Decept of Home?
+    - Where will Decept of Home be held?
+    - I'd like to know the place for Decept of Home.
+    - Inform me about the venue for the Decept of Home event.
+    - Where can I find Decept of Home? What's the address?
+    - Tell me the location of the Decept of Home event.
+    - What's the address for Decept of Home?
+    - Give me details about the Decept of Home event's venue.
+    - Where's the Decept of Home event happening?
+    - Can you provide the venue information for Decept of Home?
+    - I need to know where Decept of Home is happening.
+    - Share the venue details for Decept of Home.
+    - What's the location for Decept of Home?
+    - Please tell me the venue for the Decept of Home event.
+    - Where should I go for Decept of Home?
+    - Provide me with the venue details for Decept of Home.
+    - Tell me the place where Decept of Home will be held.
+    - I'm looking for information about the Decept of Home venue.
+    - Where's the Decept of Home event venue?
+    - Where is Decept of Home?
+    - Decept of Home venue?
+    - Location for Decept of Home?
+    - Where for Decept of Home?
+    - Venue of Decept of Home?
+    - Decept of Home's place?
+    - Address for Decept of Home?
+    - Where's Decept of Home?
+    - Tell me Decept of Home's venue.
+    - Venue Decept of Home?
+    - Where's Decept of Home held?
+    - Decept of Home location?
+    - Place for Decept of Home?
+    - What's the venue for Decept of Home?
+    - Venue info for Decept of Home?
+    - Where exactly for Decept of Home?
+    - Address Decept of Home?
+    - Location of Decept of Home?
+    - Where's the event Decept of Home?
+    - Decept of Home place?
+
+- intent: event_contact_details_Decept_Of_Home
+  examples: |
+    - How can I contact for Decept of Home?
+    - What's the contact information for Decept of Home?
+    - I need to get in touch regarding Decept of Home. How?
+    - Can you provide contact details for Decept of Home?
+    - How do I reach out about Decept of Home?
+    - Where can I find contact info for Decept of Home?
+    - Give me the contact details for Decept of Home.
+    - I want to contact someone about Decept of Home. How?
+    - How can I get in contact regarding Decept of Home?
+    - Contact information for Decept of Home, please.
+    - How do I reach the organizers of Decept of Home?
+    - What's the contact info for Decept of Home organizers?
+    - Where can I find Decept of Home's contact information?
+    - How can I reach out to the Decept of Home team?
+    - What are the contact details for the Decept of Home event?
+    - Tell me how to contact regarding Decept of Home.
+    - I'd like to inquire about Decept of Home. How can I do that?
+    - Share the contact information for Decept of Home.
+    - How to contact Decept of Home organizers?
+    - Can you provide the contact info for Decept of Home?
+    - What's the best way to contact about Decept of Home?
+    - How do I contact someone responsible for Decept of Home?
+    - Where do I find contact details for Decept of Home?
+    - How to reach out regarding Decept of Home?
+    - I want to get in touch with the Decept of Home organizers.
+    - What's the contact information for Decept of Home support?
+    - How can I ask questions about Decept of Home?
+    - Contact info for Decept of Home inquiries?
+    - How can I contact the team behind Decept of Home?
+    - What's the contact email for Decept of Home?
+    - How do I contact the Decept of Home coordinators?
+    - I need to speak with someone regarding Decept of Home.
+    - How to get in touch about Decept of Home?
+    - Can you give me contact details for Decept of Home inquiries?
+    - What's the contact number for Decept of Home?
+    - How do I contact the Decept of Home team for assistance?
+    - Where can I find Decept of Home's contact email?
+    - How to inquire about Decept of Home?
+    - Contact info for Decept of Home questions?
+    - How can I reach out to Decept of Home organizers for help?
+    - What's the contact phone number for Decept of Home?
+
+- intent: event_image_Decept_Of_Home
+  examples: |
+    - Can you show me some images for Decept of Home?
+    - I'd like to see pictures from Decept of Home.
+    - Show me photos of Decept of Home.
+    - Are there any images available for Decept of Home?
+    - Display images from the Decept of Home event.
+    - Share some visuals of Decept of Home.
+    - Can I view pictures of Decept of Home?
+    - Show me some event photos for Decept of Home.
+    - I want to see what Decept of Home looks like. Images?
+    - Are there any event snapshots for Decept of Home?
+    - Can you provide images from the Decept of Home event?
+    - I'm curious about Decept of Home. Show me images.
+    - Show me some pictures related to Decept of Home.
+    - I'd love to see event pictures for Decept of Home.
+    - Do you have any photos of Decept of Home?
+    - Display some Decept of Home event images, please.
+    - I'm interested in Decept of Home visuals. Show me.
+    - Are there any event photographs for Decept of Home?
+    - Can you share event-related images of Decept of Home?
+    - Show me what Decept of Home looks like with images.
+
+- intent: event_organizer_Decept_Of_Home
+  examples: |
+    - Who is organizing the event Decept of Home?
+    - Tell me about the organizers of Decept of Home.
+    - Can you provide information about Decept of Home's organizers?
+    - Who's in charge of the Decept of Home event?
+    - I'd like to know who's organizing Decept of Home.
+    - Who's responsible for arranging Decept of Home?
+    - Provide details about the Decept of Home event organizers.
+    - Tell me the names of the Decept of Home organizers.
+    - Who's behind the planning of Decept of Home?
+    - Share information about the event organizers for Decept of Home.
+    - Who's managing the Decept of Home event?
+    - Can you tell me about the team organizing Decept of Home?
+    - Who's coordinating the Decept of Home event?
+    - Give me details on the people behind Decept of Home.
+    - Who are the organizers of Decept of Home?
+    - Who's taking care of the Decept of Home arrangements?
+    - Can you inform me about the Decept of Home event's organizers?
+    - Who's handling the logistics for Decept of Home?
+    - Tell me about the team responsible for Decept of Home.
+    - Who's leading the organization of Decept of Home?
+    - Share information about Decept of Home's event planners.
+
+- intent: event_information_Meep_Mop
+  examples: |
+    - What can you tell me about Meep Mop?
+    - Give me some info on Meep Mop.
+    - Tell me about the Meep Mop event.
+    - What's happening at Meep Mop?
+    - I want to know more about Meep Mop.
+    - Provide details for Meep Mop.
+    - Share info about the Meep Mop event.
+    - Can you tell me about Meep Mop?
+    - What's the deal with Meep Mop?
+    - Tell me something about Meep Mop.
+    - Describe Meep Mop.
+    - I'm interested in Meep Mop. Tell me more.
+    - Share some details on Meep Mop.
+    - What's special about Meep Mop?
+    - Explain Meep Mop to me.
+    - I'd like to learn about Meep Mop.
+    - Can you provide an overview of Meep Mop?
+    - I want to get the scoop on Meep Mop.
+    - I need information on Meep Mop.
+    - Meep Mop details, please.
+    - Brief me on Meep Mop.
+    - Tell me about Meep Mop.
+    - What's Meep Mop about?
+    - Give me info on Meep Mop.
+    - Explain Meep Mop to me.
+    - I want to know more about Meep Mop.
+    - What's the deal with Meep Mop?
+    - Tell me something about Meep Mop.
+    - Describe Meep Mop.
+    - I'm interested in Meep Mop. Tell me more.
+    - Share some details on Meep Mop.
+    - What's special about Meep Mop?
+    - What's happening at Meep Mop?
+    - Can you tell me about Meep Mop?
+    - Tell me about the event Meep Mop.
+    - Can you provide an overview of Meep Mop?
+    - I want to get the scoop on Meep Mop.
+    - I need information on Meep Mop.
+    - Meep Mop details, please.
+    - Brief me on Meep Mop.
+
+- intent: event_information_Meep_Mop_subevents
+  examples: |
+    - What are the sub-events of Meep Mop?
+    - Tell me about the sub-events in Meep Mop.
+    - Give me details on Meep Mop sub-events.
+    - Can you list the sub-events of Meep Mop?
+    - I want to know about the activities in Meep Mop.
+    - What are the smaller events within Meep Mop?
+    - Inform me about Meep Mop sub-activities.
+    - Share info on Meep Mop event components.
+    - Can you provide information on Meep Mop sub-events?
+    - What's the schedule for Meep Mop sub-events?
+    - Tell me the agenda for Meep Mop sub-activities.
+    - List the sub-events of Meep Mop.
+    - I'm interested in Meep Mop sub-events. Tell me more.
+    - What are the sub-components of Meep Mop?
+    - Explain the sub-events in Meep Mop.
+    - What are the smaller parts of Meep Mop?
+    - Can you tell me about the sub-activities in Meep Mop?
+    - Share some details on Meep Mop sub-events.
+    - What's special about Meep Mop sub-events?
+    - Can you provide an overview of Meep Mop sub-events?
+    - Tell me about the sub-events of Meep Mop.
+    - What are the smaller events within Meep Mop?
+    - Explain the sub-events in Meep Mop.
+    - I want to know more about Meep Mop sub-events.
+    - What's happening in Meep Mop in detail?
+    - Can you share details on Meep Mop sub-events?
+    - List the sub-events of Meep Mop.
+    - Can you provide information on Meep Mop sub-events?
+    - Describe the components of Meep Mop.
+    - I'm interested in Meep Mop sub-events. Tell me more.
+    - What's the agenda for Meep Mop sub-events?
+    - Inform me about the sub-activities in Meep Mop.
+    - Give me the scoop on Meep Mop sub-events.
+    - What's special about Meep Mop sub-events?
+    - Share some details on the sub-components of Meep Mop.
+    - Can you tell me about the sub-activities in Meep Mop?
+    - Tell me the sub-events within Meep Mop.
+    - Can you provide an overview of Meep Mop sub-events?
+    - Explain the smaller parts of Meep Mop.
+    - I need information on the sub-events of Meep Mop.
+
+- intent: event_registration_Meep_Mop
+  examples: |
+    - Give me the registration link for Meep Mop.
+    - How can I register for Meep Mop?
+    - Where can I find the registration link for Meep Mop?
+    - Give me the registration details for Meep Mop.
+    - Can you share the registration link for Meep Mop?
+    - I want to sign up for Meep Mop. How do I do that?
+    - Provide the Meep Mop event registration link, please.
+    - Where do I go to register for Meep Mop?
+    - Tell me how to enroll in Meep Mop.
+    - What's the process for registering for Meep Mop?
+    - Is there a way to RSVP for Meep Mop?
+    - How can I get access to Meep Mop?
+    - Share the registration information for Meep Mop.
+    - Can you give me the link to register for Meep Mop?
+    - I'm interested in attending Meep Mop. How do I register?
+    - What's the registration procedure for Meep Mop?
+    - I'd like to participate in Meep Mop. How do I sign up?
+    - Where can I find the Meep Mop registration form?
+    - How do I get a spot in Meep Mop?
+    - What's the sign-up process for Meep Mop?
+    - Share the registration page for Meep Mop.
+    - How do I register for Meep Mop?
+    - Where's the link to register for Meep Mop?
+    - Give me the registration link for Meep Mop.
+    - Can you share the Meep Mop registration link?
+    - How can I sign up for Meep Mop?
+    - Provide the registration info for Meep Mop, please.
+    - How to enroll in Meep Mop?
+    - What's the process to register for Meep Mop?
+    - How do I RSVP for Meep Mop?
+    - How to get access to Meep Mop?
+    - Share the Meep Mop registration details.
+    - Where's the registration link for Meep Mop?
+    - I want to attend Meep Mop. How do I register?
+    - What's the registration procedure for Meep Mop?
+    - How to participate in Meep Mop? Sign-up info?
+    - Where's the Meep Mop registration form?
+    - How to secure a spot in Meep Mop?
+    - What's the sign-up process for Meep Mop?
+    - Share the registration page for Meep Mop.
+    - Meep Mop registration link, please.
+    - Registration link for Meep Mop event?
+
+- intent: event_venue_Meep_Mop
+  examples: |
+    - What is the venue for event Meep Mop?
+    - Where is the event Meep Mop taking place?
+    - Can you tell me the location of the Meep Mop event?
+    - What's the venue for Meep Mop?
+    - Where will Meep Mop be held?
+    - I'd like to know the place for Meep Mop.
+    - Inform me about the venue for the Meep Mop event.
+    - Where can I find Meep Mop? What's the address?
+    - Tell me the location of the Meep Mop event.
+    - What's the address for Meep Mop?
+    - Give me details about the Meep Mop event's venue.
+    - Where's the Meep Mop event happening?
+    - Can you provide the venue information for Meep Mop?
+    - I need to know where Meep Mop is happening.
+    - Share the venue details for Meep Mop.
+    - What's the location for Meep Mop?
+    - Please tell me the venue for the Meep Mop event.
+    - Where should I go for Meep Mop?
+    - Provide me with the venue details for Meep Mop.
+    - Tell me the place where Meep Mop will be held.
+    - I'm looking for information about the Meep Mop venue.
+    - Where's the Meep Mop event venue?
+    - Where is Meep Mop?
+    - Meep Mop venue?
+    - Location for Meep Mop?
+    - Where for Meep Mop?
+    - Venue of Meep Mop?
+    - Meep Mop's place?
+    - Address for Meep Mop?
+    - Where's Meep Mop?
+    - Tell me Meep Mop's venue.
+    - Venue Meep Mop?
+    - Where's Meep Mop held?
+    - Meep Mop location?
+    - Place for Meep Mop?
+    - What's the venue for Meep Mop?
+    - Venue info for Meep Mop?
+    - Where exactly for Meep Mop?
+    - Address Meep Mop?
+    - Location of Meep Mop?
+    - Where's the event Meep Mop?
+    - Meep Mop place?
+
+- intent: event_contact_details_Meep_Mop
+  examples: |
+    - How can I contact for Meep Mop?
+    - What's the contact information for Meep Mop?
+    - I need to get in touch regarding Meep Mop. How?
+    - Can you provide contact details for Meep Mop?
+    - How do I reach out about Meep Mop?
+    - Where can I find contact info for Meep Mop?
+    - Give me the contact details for Meep Mop.
+    - I want to contact someone about Meep Mop. How?
+    - How can I get in contact regarding Meep Mop?
+    - Contact information for Meep Mop, please.
+    - How do I reach the organizers of Meep Mop?
+    - What's the contact info for Meep Mop organizers?
+    - Where can I find Meep Mop's contact information?
+    - How can I reach out to the Meep Mop team?
+    - What are the contact details for the Meep Mop event?
+    - Tell me how to contact regarding Meep Mop.
+    - I'd like to inquire about Meep Mop. How can I do that?
+    - Share the contact information for Meep Mop.
+    - How to contact Meep Mop organizers?
+    - Can you provide the contact info for Meep Mop?
+    - What's the best way to contact about Meep Mop?
+    - How do I contact someone responsible for Meep Mop?
+    - Where do I find contact details for Meep Mop?
+    - How to reach out regarding Meep Mop?
+    - I want to get in touch with the Meep Mop organizers.
+    - What's the contact information for Meep Mop support?
+    - How can I ask questions about Meep Mop?
+    - Contact info for Meep Mop inquiries?
+    - How can I contact the team behind Meep Mop?
+    - What's the contact email for Meep Mop?
+    - How do I contact the Meep Mop coordinators?
+    - I need to speak with someone regarding Meep Mop.
+    - How to get in touch about Meep Mop?
+    - Can you give me contact details for Meep Mop inquiries?
+    - What's the contact number for Meep Mop?
+    - How do I contact the Meep Mop team for assistance?
+    - Where can I find Meep Mop's contact email?
+    - How to inquire about Meep Mop?
+    - Contact info for Meep Mop questions?
+    - How can I reach out to Meep Mop organizers for help?
+    - What's the contact phone number for Meep Mop?
+
+- intent: event_image_Meep_Mop
+  examples: |
+    - Can you show me some images for Meep Mop?
+    - I'd like to see pictures from Meep Mop.
+    - Show me photos of Meep Mop.
+    - Are there any images available for Meep Mop?
+    - Display images from the Meep Mop event.
+    - Share some visuals of Meep Mop.
+    - Can I view pictures of Meep Mop?
+    - Show me some event photos for Meep Mop.
+    - I want to see what Meep Mop looks like. Images?
+    - Are there any event snapshots for Meep Mop?
+    - Can you provide images from the Meep Mop event?
+    - I'm curious about Meep Mop. Show me images.
+    - Show me some pictures related to Meep Mop.
+    - I'd love to see event pictures for Meep Mop.
+    - Do you have any photos of Meep Mop?
+    - Display some Meep Mop event images, please.
+    - I'm interested in Meep Mop visuals. Show me.
+    - Are there any event photographs for Meep Mop?
+    - Can you share event-related images of Meep Mop?
+    - Show me what Meep Mop looks like with images.
+
+- intent: event_organizer_Meep_Mop
+  examples: |
+    - Who is organizing the event Meep Mop?
+    - Tell me about the organizers of Meep Mop.
+    - Can you provide information about Meep Mop's organizers?
+    - Who's in charge of the Meep Mop event?
+    - I'd like to know who's organizing Meep Mop.
+    - Who's responsible for arranging Meep Mop?
+    - Provide details about the Meep Mop event organizers.
+    - Tell me the names of the Meep Mop organizers.
+    - Who's behind the planning of Meep Mop?
+    - Share information about the event organizers for Meep Mop.
+    - Who's managing the Meep Mop event?
+    - Can you tell me about the team organizing Meep Mop?
+    - Who's coordinating the Meep Mop event?
+    - Give me details on the people behind Meep Mop.
+    - Who are the organizers of Meep Mop?
+    - Who's taking care of the Meep Mop arrangements?
+    - Can you inform me about the Meep Mop event's organizers?
+    - Who's handling the logistics for Meep Mop?
+    - Tell me about the team responsible for Meep Mop.
+    - Who's leading the organization of Meep Mop?
+    - Share information about Meep Mop's event planners.
+
+- intent: event_all_rule_Bumble_See
+  examples: |
+    - What are all the rules for the event Bumble See?
+    - Tell me the complete list of rules for Bumble See.
+    - Can you provide me with all the rules of Bumble See?
+    - I need to know all the regulations for the Bumble See event.
+    - Please list down all the rules for Bumble See.
+    - Give me the full set of guidelines for the Bumble See competition.
+    - I want to be aware of every rule for Bumble See, can you help?
+    - Share all the rules and regulations for the Bumble See event.
+    - Inform me about the event Bumble See and its rules.
+    - What are the comprehensive rules for Bumble See?
+    - Provide me with all the event Bumble See rules.
+    - I'm looking for a detailed list of rules for Bumble See.
+    - List all the rules that apply to the Bumble See competition.
+    - Can you give me the extensive set of rules for Bumble See?
+    - Tell me everything I need to know about the rules of Bumble See.
+    - I want to understand every rule associated with Bumble See.
+    - Share the complete rulebook for the event Bumble See.
+    - I need to have a thorough understanding of Bumble See rules.
+    - What's the entire list of rules for the Bumble See event?
+    - Provide me with the full rule set for Bumble See.
+
+- intent: event_rule_1_Bumble_See
+  examples: |
+    - What's the first rule for Bumble See event?
+    - Explain rule 1 for Bumble See.
+    - Can you tell me the initial rule of Bumble See event?
+    - Share the primary guideline for Bumble See.
+    - I'd like to know the first regulation for the Bumble See event.
+    - Describe the opening rule for Bumble See.
+    - What's rule number 1 for the Bumble See event?
+    - Tell me the starting rule for Bumble See.
+    - Give me the first principle for the Bumble See event.
+    - Explain the first rule of Bumble See.
+    - What's the first instruction for the Bumble See event?
+    - Can you clarify the first rule for Bumble See?
+    - Share the rule 1 details for Bumble See.
+    - Provide information about the initial rule of Bumble See.
+    - I'm curious about the first rule for Bumble See.
+    - Please tell me the rule 1 specifics for the Bumble See event.
+    - What's the primary rule for the Bumble See event?
+    - I want to understand the first guideline for Bumble See.
+    - Could you describe the rule 1 for Bumble See?
+    - Explain the first regulation for the Bumble See event.
+    - Share details about the starting rule of Bumble See.
+
+- intent: event_rule_2_Bumble_See
+  examples: |
+    - What is the second rule for Bumble See?
+    - Can you tell me the second rule of Bumble See?
+    - I'd like to know the second guideline for Bumble See.
+    - Give me the second rule applicable to Bumble See.
+    - What's rule number 2 for Bumble See?
+    - Explain the second Bumble See rule to me.
+    - Tell me the second principle of Bumble See.
+    - What's the second regulation for Bumble See?
+    - I'm curious about the second rule for Bumble See.
+    - Please provide the second Bumble See rule.
+    - I need information about the second Bumble See rule.
+    - Share the second guideline for Bumble See.
+    - I want to understand the second rule of Bumble See.
+    - Could you describe the second rule regarding Bumble See?
+    - Inform me about the second Bumble See rule.
+    - I'm interested in the second rule for Bumble See.
+    - What's the second Bumble See rule all about?
+    - Can you elaborate on the second rule for Bumble See?
+    - Please clarify the second guideline for Bumble See.
+    - I need to know the second rule for Bumble See.
+
+- intent: event_rule_3_Bumble_See
+  examples:
+    - What's the third rule for Bumble See?
+    - Can you tell me the third rule of Bumble See?
+    - I need to know the third guideline for Bumble See.
+    - What's the rule number 3 for Bumble See?
+    - Please provide the third rule of Bumble See.
+    - Tell me the third principle of Bumble See.
+    - Give me the third rule for Bumble See.
+    - I'm curious about the third Bumble See rule.
+    - Share the third Bumble See guideline.
+    - Explain the third Bumble See regulation.
+    - What's the third Bumble See rule all about?
+    - Provide me with the third rule of Bumble See.
+    - Could you describe the third Bumble See rule?
+    - Let me know the third Bumble See guideline.
+    - I want to learn the third rule of Bumble See.
+    - Tell me about the third Bumble See rule.
+    - Explain the third rule for Bumble See.
+    - I'm interested in the third Bumble See rule.
+    - Please share the third rule of Bumble See.
+    - Describe the third Bumble See regulation.
+
+- intent: event_rule_4_Bumble_See
+  examples: |
+    - What's the fourth rule for Bumble See?
+    - Tell me the fourth guideline for Bumble See.
+    - I need to know the fourth rule of Bumble See.
+    - Could you share the fourth Bumble See rule with me?
+    - What's the fourth principle of Bumble See?
+    - Explain the fourth rule in Bumble See.
+    - What is rule number four for Bumble See?
+    - Share the fourth Bumble See rule, please.
+    - I'm curious about the fourth rule in Bumble See.
+    - Give me the fourth Bumble See guideline.
+    - Tell me about the fourth rule of Bumble See.
+    - I want to learn the fourth rule for Bumble See.
+    - What's the fourth regulation for Bumble See?
+    - Provide information about the fourth Bumble See rule.
+    - Can you tell me the fourth Bumble See rule?
+    - I'm interested in rule number four in Bumble See.
+    - What's the fourth rule I should know in Bumble See?
+    - Share the fourth Bumble See guideline with me.
+    - Tell me the fourth rule related to Bumble See.
+    - Explain the fourth Bumble See rule to me.
+    - What's the fourth rule that applies to Bumble See?
+
+- intent: event_rule_5_Bumble_See
+  examples: |
+    - What's the fifth rule for Bumble See?
+    - Can you tell me the rule number five for Bumble See?
+    - Explain the fifth rule of Bumble See.
+    - I need to know the rule five in Bumble See.
+    - Please share the fifth Bumble See rule with me.
+    - Tell me the rule number 5 for Bumble See.
+    - What's rule five in Bumble See?
+    - Give me information about the fifth rule of Bumble See.
+    - I'm curious about the fifth rule in Bumble See.
+    - Describe the fifth rule of Bumble See.
+    - Provide details on the rule number five in Bumble See.
+    - Share the fifth Bumble See rule, please.
+    - Could you inform me about the fifth rule of Bumble See?
+    - I want to learn about the rule five in Bumble See.
+    - What's the fifth guideline in Bumble See?
+    - Enlighten me about the fifth rule for Bumble See.
+    - I'm looking for information on the fifth Bumble See rule.
+    - Tell me what rule number 5 is in Bumble See.
+    - Explain the rule five for Bumble See.
+    - Can you give me details on the fifth rule in Bumble See?
+    - Share the fifth rule of Bumble See.
+
+- intent: event_rule_6_Bumble_See
+  examples: |
+    - What's the sixth rule for Bumble See?
+    - Tell me the sixth rule of Bumble See.
+    - I need to know the rule number six for Bumble See.
+    - Could you share the sixth Bumble See rule?
+    - What's rule 6 in Bumble See's guidelines?
+    - Give me the sixth rule of Bumble See.
+    - Share the rule number six in Bumble See.
+    - I'm curious about the sixth rule of Bumble See.
+    - Please provide the sixth Bumble See rule.
+    - What's the rule that comes after five in Bumble See?
+    - Inform me about the rule number six in Bumble See.
+    - I want to learn the sixth Bumble See rule.
+    - Could you tell me the sixth rule for Bumble See, please?
+    - Let me know the sixth rule of Bumble See.
+    - I'm looking for the sixth Bumble See guideline.
+    - Share the Bumble See rule that's number six.
+    - What's the rule after the fifth in Bumble See?
+    - Inform me about the sixth rule in Bumble See's policy.
+    - I'd like to understand the sixth Bumble See rule.
+    - Please provide the sixth rule for Bumble See.
+
+- intent: event_all_rule_Match_n_Engage
+  examples: |
+    - What are all the rules for the event Match n Engage?
+    - Tell me the complete list of rules for Match n Engage.
+    - Can you provide me with all the rules of Match n Engage?
+    - I need to know all the regulations for the Match n Engage event.
+    - Please list down all the rules for Match n Engage.
+    - Give me the full set of guidelines for the Match n Engage competition.
+    - I want to be aware of every rule for Match n Engage, can you help?
+    - Share all the rules and regulations for the Match n Engage event.
+    - Inform me about the event Match n Engage and its rules.
+    - What are the comprehensive rules for Match n Engage?
+    - Provide me with all the event Match n Engage rules.
+    - I'm looking for a detailed list of rules for Match n Engage.
+    - List all the rules that apply to the Match n Engage competition.
+    - Can you give me the extensive set of rules for Match n Engage?
+    - Tell me everything I need to know about the rules of Match n Engage.
+    - I want to understand every rule associated with Match n Engage.
+    - Share the complete rulebook for the event Match n Engage.
+    - I need to have a thorough understanding of Match n Engage rules.
+    - What's the entire list of rules for the Match n Engage event?
+    - Provide me with the full rule set for Match n Engage.
+
+- intent: event_rule_1_Match_n_Engage
+  examples: |
+    - What's the first rule for Match n Engage?
+    - Can you tell me the first rule related to Match n Engage?
+    - I'd like to know the initial rule for Match n Engage.
+    - Please share the first guideline for Match n Engage.
+    - What's the opening principle for Match n Engage?
+    - Give me the first rule of Match n Engage.
+    - Tell me the first step for Match n Engage.
+    - I'm curious about the first instruction for Match n Engage.
+    - What's the starting point for Match n Engage?
+    - Share the first rule of engagement for Match n Engage.
+    - Explain the first guideline for Match n Engage.
+    - I'm looking for the first rule regarding Match n Engage.
+    - Can you provide the first advice for Match n Engage?
+    - What's the very first thing to do in Match n Engage?
+    - I'd like to begin with the first rule of Match n Engage.
+    - Tell me the initial step for Match n Engage.
+    - Share the first directive for Match n Engage.
+    - What's the first thing I need to know about Match n Engage?
+    - Please elaborate on the first rule for Match n Engage.
+    - Can you give me the first point about Match n Engage?
+
+- intent: event_rule_2_Match_n_Engage
+  examples: |
+    - What is the second rule for Match n Engage?
+    - Please tell me the second rule of Match n Engage.
+    - I'd like to know the second rule in Match n Engage.
+    - Can you share the second guideline for Match n Engage?
+    - Explain the second rule for Match n Engage.
+    - Give me the second principle of Match n Engage.
+    - Tell me about the second rule in Match n Engage.
+    - What's the second step in Match n Engage?
+    - I'm interested in the second rule of Match n Engage.
+    - Share the second rule for Match n Engage, please.
+    - What's the second instruction for Match n Engage?
+    - I want to learn about the second rule of Match n Engage.
+    - Please provide the second rule for Match n Engage.
+    - Could you elaborate on the second guideline of Match n Engage?
+    - I'm looking for information on the second rule in Match n Engage.
+    - What's the second point in Match n Engage?
+    - Tell me about the second step in the Match n Engage process.
+    - I'd like to understand the second rule in the context of Match n Engage.
+    - Explain the second principle for Match n Engage.
+    - Share the second rule of Match n Engage with me.
+    - What does the second rule of Match n Engage entail?
+
+- intent: event_rule_3_Match_n_Engage
+  examples:
+    - What is the third rule for Match n Engage?
+    - Could you tell me the third rule in Match n Engage?
+    - Explain the third rule related to Match n Engage.
+    - What's the third guideline for Match n Engage?
+    - I'm curious about the third principle of Match n Engage.
+    - Please share the third rule for Match n Engage.
+    - Tell me about the third rule for Match n Engage.
+    - What's the third step in Match n Engage?
+    - Describe the third rule of Match n Engage.
+    - Give me details on the third rule for Match n Engage.
+    - What comes after the second rule in Match n Engage?
+    - I need to know the third rule for Match n Engage.
+    - Share the third principle for Match n Engage.
+    - Can you elaborate on the third rule in Match n Engage?
+    - I'm interested in learning the third rule for Match n Engage.
+    - What's the next rule in Match n Engage after the second?
+    - Provide information on the third rule of Match n Engage.
+    - How does the third rule apply to Match n Engage?
+    - I'd like to understand the third rule for Match n Engage.
+    - Clarify the third rule in Match n Engage.
+    - What's the third instruction in Match n Engage?
+
+- intent: event_rule_4_Match_n_Engage
+  examples: |
+    - What's the fourth rule for Match n Engage?
+    - Can you tell me the fourth rule of Match n Engage?
+    - Explain the fourth rule of Match n Engage.
+    - I need to know the fourth guideline for Match n Engage.
+    - Tell me about the fourth rule in Match n Engage.
+    - What's the fourth principle for Match n Engage?
+    - Share the fourth rule of Match n Engage with me.
+    - I'm curious about the fourth rule in Match n Engage.
+    - Describe the fourth rule of Match n Engage.
+    - Could you provide details on the fourth rule of Match n Engage?
+    - Please list the fourth rule for Match n Engage.
+    - Give me information about the fourth rule in Match n Engage.
+    - I want to learn about the fourth rule of Match n Engage.
+    - Enlighten me about the fourth rule for Match n Engage.
+    - What does the fourth rule in Match n Engage involve?
+    - I'm interested in the fourth rule for Match n Engage.
+    - Let's talk about the fourth rule of Match n Engage.
+    - Teach me the fourth rule of Match n Engage.
+    - Share insights on the fourth rule for Match n Engage.
+    - I'd like to understand the fourth rule of Match n Engage better.
+
+- intent: event_rule_5_Match_n_Engage
+  examples: |
+    - What's the fifth rule for Match n Engage?
+    - Can you tell me the fifth rule in Match n Engage?
+    - I need to know the fifth guideline for Match n Engage.
+    - Explain the fifth principle of Match n Engage.
+    - Please provide the fifth rule for Match n Engage.
+    - I'm looking for the fifth rule related to Match n Engage.
+    - Share the fifth guideline for Match n Engage.
+    - Tell me about rule number five in Match n Engage.
+    - What's the fifth regulation in Match n Engage?
+    - Inform me about the fifth rule concerning Match n Engage.
+    - I'm curious about the fifth rule for Match n Engage.
+    - Could you describe the fifth principle for Match n Engage?
+    - Describe the fifth guideline for Match n Engage.
+    - I want to understand the fifth rule in Match n Engage.
+    - Please elaborate on the fifth rule of Match n Engage.
+    - Provide the fifth rule's details for Match n Engage.
+    - Share information about the fifth rule in Match n Engage.
+    - What's the fifth instruction in Match n Engage?
+    - Tell me about the fifth policy for Match n Engage.
+    - Explain the fifth point in Match n Engage.
+
+- intent: event_rule_6_Match_n_Engage
+  examples: |
+    - What is the sixth rule for Match n Engage?
+    - Can you tell me the sixth rule in Match n Engage?
+    - Explain the sixth rule related to Match n Engage.
+    - I need to know the sixth rule for Match n Engage.
+    - Please provide the sixth rule concerning Match n Engage.
+    - Describe the rule number six in Match n Engage.
+    - Tell me about the sixth rule in Match n Engage.
+    - What's the rule six for Match n Engage?
+    - I'm looking for information on the sixth rule in Match n Engage.
+    - Share the sixth rule for Match n Engage.
+    - Give me details on the sixth rule related to Match n Engage.
+    - I want to learn about the rule number six for Match n Engage.
+    - Could you elaborate on the sixth rule for Match n Engage?
+    - What's the guideline in Match n Engage for rule six?
+    - Inform me about the sixth rule of Match n Engage.
+    - Let's discuss the sixth rule regarding Match n Engage.
+    - Provide insights on the sixth rule in Match n Engage.
+    - I'm curious about the sixth rule in Match n Engage.
+    - Share the information on the sixth rule for Match n Engage.
+    - What does rule six in Match n Engage entail?
+
+- intent: event_all_rule_Decept_of_Home
+  examples: |
+    - What are all the rules for the event Decept of Home?
+    - Tell me the complete list of rules for Decept of Home.
+    - Can you provide me with all the rules of Decept of Home?
+    - I need to know all the regulations for the Decept of Home event.
+    - Please list down all the rules for Decept of Home.
+    - Give me the full set of guidelines for the Decept of Home competition.
+    - I want to be aware of every rule for Decept of Home, can you help?
+    - Share all the rules and regulations for the Decept of Home event.
+    - Inform me about the event Decept of Home and its rules.
+    - What are the comprehensive rules for Decept of Home?
+    - Provide me with all the event Decept of Home rules.
+    - I'm looking for a detailed list of rules for Decept of Home.
+    - List all the rules that apply to the Decept of Home competition.
+    - Can you give me the extensive set of rules for Decept of Home?
+    - Tell me everything I need to know about the rules of Decept of Home.
+    - I want to understand every rule associated with Decept of Home.
+    - Share the complete rulebook for the event Decept of Home.
+    - I need to have a thorough understanding of Decept of Home rules.
+    - What's the entire list of rules for the Decept of Home event?
+    - Provide me with the full rule set for Decept of Home.
+
+- intent: event_rule_1_Decept_of_Home
+  examples: |
+    - What's the first rule for Decept of Home?
+    - Can you tell me the first rule related to Decept of Home?
+    - I'd like to know the initial rule for Decept of Home.
+    - Please share the first guideline for Decept of Home.
+    - What's the opening principle for Decept of Home?
+    - Give me the first rule of Decept of Home.
+    - Tell me the first step for Decept of Home.
+    - I'm curious about the first instruction for Decept of Home.
+    - What's the starting point for Decept of Home?
+    - Share the first rule of engagement for Decept of Home.
+    - Explain the first guideline for Decept of Home.
+    - I'm looking for the first rule regarding Decept of Home.
+    - Can you provide the first advice for Decept of Home?
+    - What's the very first thing to do in Decept of Home?
+    - I'd like to begin with the first rule of Decept of Home.
+    - Tell me the initial step for Decept of Home.
+    - Share the first directive for Decept of Home.
+    - What's the first thing I need to know about Decept of Home?
+    - Please elaborate on the first rule for Decept of Home.
+    - Can you give me the first point about Decept of Home?
+
+- intent: event_rule_2_Decept_of_Home
+  examples: |
+    - What is the second rule for Decept of Home?
+    - Please tell me the second rule of Decept of Home.
+    - I'd like to know the second rule in Decept of Home.
+    - Can you share the second guideline for Decept of Home?
+    - Explain the second rule for Decept of Home.
+    - Give me the second principle of Decept of Home.
+    - Tell me about the second rule in Decept of Home.
+    - What's the second step in Decept of Home?
+    - I'm interested in the second rule of Decept of Home.
+    - Share the second rule for Decept of Home, please.
+    - What's the second instruction for Decept of Home?
+    - I want to learn about the second rule of Decept of Home.
+    - Please provide the second rule for Decept of Home.
+    - Could you elaborate on the second guideline of Decept of Home?
+    - I'm looking for information on the second rule in Decept of Home.
+    - What's the second point in Decept of Home?
+    - Tell me about the second step in the Decept of Home process.
+    - I'd like to understand the second rule in the context of Decept of Home.
+    - Explain the second principle for Decept of Home.
+    - Share the second rule of Decept of Home with me.
+    - What does the second rule of Decept of Home entail?
+
+- intent: event_rule_3_Decept_of_Home
+  examples: |
+    - What is the third rule for Decept of Home?
+    - Could you tell me the third rule in Decept of Home?
+    - Explain the third rule related to Decept of Home.
+    - What's the third guideline for Decept of Home?
+    - I'm curious about the third principle of Decept of Home.
+    - Please share the third rule for Decept of Home.
+    - Tell me about the third rule for Decept of Home.
+    - What's the third step in Decept of Home?
+    - Describe the third rule of Decept of Home.
+    - Give me details on the third rule for Decept of Home.
+    - What comes after the second rule in Decept of Home?
+    - I need to know the third rule for Decept of Home.
+    - Share the third principle for Decept of Home.
+    - Can you elaborate on the third rule in Decept of Home?
+    - I'm interested in learning the third rule for Decept of Home.
+    - What's the next rule in Decept of Home after the second?
+    - Provide information on the third rule of Decept of Home.
+    - How does the third rule apply to Decept of Home?
+    - I'd like to understand the third rule for Decept of Home.
+    - Clarify the third rule in Decept of Home.
+    - What's the third instruction in Decept of Home?
+
+- intent: event_rule_4_Decept_of_Home
+  examples: |
+    - What's the fourth rule for Decept of Home?
+    - Can you tell me the fourth rule of Decept of Home?
+    - Explain the fourth rule of Decept of Home.
+    - I need to know the fourth guideline for Decept of Home.
+    - Tell me about the fourth rule in Decept of Home.
+    - What's the fourth principle for Decept of Home?
+    - Share the fourth rule of Decept of Home with me.
+    - I'm curious about the fourth rule in Decept of Home.
+    - Describe the fourth rule of Decept of Home.
+    - Could you provide details on the fourth rule of Decept of Home?
+    - Please list the fourth rule for Decept of Home.
+    - Give me information about the fourth rule of Decept of Home.
+    - I want to learn about the fourth rule of Decept of Home.
+    - Enlighten me about the fourth rule for Decept of Home.
+    - What does the fourth rule in Decept of Home involve?
+    - I'm interested in the fourth rule for Decept of Home.
+    - Let's talk about the fourth rule of Decept of Home.
+    - Teach me the fourth rule of Decept of Home.
+    - Share insights on the fourth rule for Decept of Home.
+    - I'd like to understand the fourth rule of Decept of Home better.
+
+- intent: event_rule_5_Decept_of_Home
+  examples: |
+    - What's the fifth rule for Decept of Home?
+    - Can you tell me the fifth rule in Decept of Home?
+    - I need to know the fifth guideline for Decept of Home.
+    - Explain the fifth principle of Decept of Home.
+    - Please provide the fifth rule for Decept of Home.
+    - I'm looking for the fifth rule related to Decept of Home.
+    - Share the fifth guideline for Decept of Home.
+    - Tell me about rule number five in Decept of Home.
+    - What's the fifth regulation in Decept of Home?
+    - Inform me about the fifth rule concerning Decept of Home.
+    - I'm curious about the fifth rule for Decept of Home.
+    - Could you describe the fifth principle for Decept of Home?
+    - Describe the fifth guideline for Decept of Home.
+    - I want to understand the fifth rule in Decept of Home.
+    - Please elaborate on the fifth rule of Decept of Home.
+    - Provide the fifth rule's details for Decept of Home.
+    - Share information about the fifth rule in Decept of Home.
+    - What's the fifth instruction in Decept of Home?
+    - Tell me about the fifth policy for Decept of Home.
+    - Explain the fifth point in Decept of Home.
+
+- intent: event_rule_6_Decept_of_Home
+  examples: |
+    - What is the sixth rule for Decept of Home?
+    - Can you tell me the sixth rule in Decept of Home?
+    - Explain the sixth rule related to Decept of Home.
+    - I need to know the sixth rule for Decept of Home.
+    - Please provide the sixth rule concerning Decept of Home.
+    - Describe the rule number six in Decept of Home.
+    - Tell me about the sixth rule in Decept of Home.
+    - What's the rule six for Decept of Home?
+    - I'm looking for information on the sixth rule in Decept of Home.
+    - Share the sixth rule for Decept of Home.
+    - Give me details on the sixth rule related to Decept of Home.
+    - I want to learn about the rule number six for Decept of Home.
+    - Could you elaborate on the sixth rule for Decept of Home?
+    - What's the guideline in Decept of Home for rule six?
+    - Inform me about the sixth rule of Decept of Home.
+    - Let's discuss the sixth rule regarding Decept of Home.
+    - Provide insights on the sixth rule in Decept of Home.
+    - I'm curious about the sixth rule in Decept of Home.
+    - Share the information on the sixth rule for Decept of Home.
+    - What does rule six in Decept of Home entail?
+
+- intent: event_all_rule_Meep_Mop
+  examples: |
+    - What are all the rules for the event Meep Mop?
+    - Tell me the complete list of rules for Meep Mop.
+    - Can you provide me with all the rules of Meep Mop?
+    - I need to know all the regulations for the Meep Mop event.
+    - Please list down all the rules for Meep Mop.
+    - Give me the full set of guidelines for the Meep Mop competition.
+    - I want to be aware of every rule for Meep Mop, can you help?
+    - Share all the rules and regulations for the Meep Mop event.
+    - Inform me about the event Meep Mop and its rules.
+    - What are the comprehensive rules for Meep Mop?
+    - Provide me with all the event Meep Mop rules.
+    - I'm looking for a detailed list of rules for Meep Mop.
+    - List all the rules that apply to the Meep Mop competition.
+    - Can you give me the extensive set of rules for Meep Mop?
+    - Tell me everything I need to know about the rules of Meep Mop.
+    - I want to understand every rule associated with Meep Mop.
+    - Share the complete rulebook for the event Meep Mop.
+    - I need to have a thorough understanding of Meep Mop rules.
+    - What's the entire list of rules for the Meep Mop event?
+    - Provide me with the full rule set for Meep Mop.
+
+- intent: event_rule_1_Meep_Mop
+  examples: |
+    - What's the first rule for Meep Mop?
+    - Can you tell me the first rule related to Meep Mop?
+    - I'd like to know the initial rule for Meep Mop.
+    - Please share the first guideline for Meep Mop.
+    - What's the opening principle for Meep Mop?
+    - Give me the first rule of Meep Mop.
+    - Tell me the first step for Meep Mop.
+    - I'm curious about the first instruction for Meep Mop.
+    - What's the starting point for Meep Mop?
+    - Share the first rule of engagement for Meep Mop.
+    - Explain the first guideline for Meep Mop.
+    - I'm looking for the first rule regarding Meep Mop.
+    - Can you provide the first advice for Meep Mop?
+    - What's the very first thing to do in Meep Mop?
+    - I'd like to begin with the first rule of Meep Mop.
+    - Tell me the initial step for Meep Mop.
+    - Share the first directive for Meep Mop.
+    - What's the first thing I need to know about Meep Mop?
+    - Please elaborate on the first rule for Meep Mop.
+    - Can you give me the first point about Meep Mop?
+
+- intent: event_rule_2_Meep_Mop
+  examples: |
+    - What is the second rule for Meep Mop?
+    - Please tell me the second rule of Meep Mop.
+    - I'd like to know the second rule in Meep Mop.
+    - Can you share the second guideline for Meep Mop?
+    - Explain the second rule for Meep Mop.
+    - Give me the second principle of Meep Mop.
+    - Tell me about the second rule in Meep Mop.
+    - What's the second step in Meep Mop?
+    - I'm interested in the second rule of Meep Mop.
+    - Share the second rule for Meep Mop, please.
+    - What's the second instruction for Meep Mop?
+    - I want to learn about the second rule of Meep Mop.
+    - Please provide the second rule for Meep Mop.
+    - Could you elaborate on the second guideline of Meep Mop?
+    - I'm looking for information on the second rule in Meep Mop.
+    - What's the second point in Meep Mop?
+    - Tell me about the second step in the Meep Mop process.
+    - I'd like to understand the second rule in the context of Meep Mop.
+    - Explain the second principle for Meep Mop.
+    - Share the second rule of Meep Mop with me.
+    - What does the second rule of Meep Mop entail?
+
+- intent: event_rule_3_Meep_Mop
+  examples: |
+    - What is the third rule for Meep Mop?
+    - Could you tell me the third rule in Meep Mop?
+    - Explain the third rule related to Meep Mop.
+    - What's the third guideline for Meep Mop?
+    - I'm curious about the third principle of Meep Mop.
+    - Please share the third rule for Meep Mop.
+    - Tell me about the third rule for Meep Mop.
+    - What's the third step in Meep Mop?
+    - Describe the third rule of Meep Mop.
+    - Give me details on the third rule for Meep Mop.
+    - What comes after the second rule in Meep Mop?
+    - I need to know the third rule for Meep Mop.
+    - Share the third principle for Meep Mop.
+    - Can you elaborate on the third rule in Meep Mop?
+    - I'm interested in learning the third rule for Meep Mop.
+    - What's the next rule in Meep Mop after the second?
+    - Provide information on the third rule of Meep Mop.
+    - How does the third rule apply to Meep Mop?
+    - I'd like to understand the third rule for Meep Mop.
+    - Clarify the third rule in Meep Mop.
+    - What's the third instruction in Meep Mop?
+
+- intent: event_rule_4_Meep_Mop
+  examples: |
+    - What's the fourth rule for Meep Mop?
+    - Can you tell me the fourth rule of Meep Mop?
+    - Explain the fourth rule of Meep Mop.
+    - I need to know the fourth guideline for Meep Mop.
+    - Tell me about the fourth rule in Meep Mop.
+    - What's the fourth principle for Meep Mop?
+    - Share the fourth rule of Meep Mop with me.
+    - I'm curious about the fourth rule in Meep Mop.
+    - Describe the fourth rule of Meep Mop.
+    - Could you provide details on the fourth rule of Meep Mop?
+    - Please list the fourth rule for Meep Mop.
+    - Give me information about the fourth rule in Meep Mop.
+    - I want to learn about the fourth rule of Meep Mop.
+    - Enlighten me about the fourth rule for Meep Mop.
+    - What does the fourth rule in Meep Mop involve?
+    - I'm interested in the fourth rule for Meep Mop.
+    - Let's talk about the fourth rule of Meep Mop.
+    - Teach me the fourth rule of Meep Mop.
+    - Share insights on the fourth rule for Meep Mop.
+    - I'd like to understand the fourth rule of Meep Mop better.
+
+- intent: event_rule_5_Meep_Mop
+  examples: |
+    - What's the fifth rule for Meep Mop?
+    - Can you tell me the fifth rule in Meep Mop?
+    - I need to know the fifth guideline for Meep Mop.
+    - Explain the fifth principle of Meep Mop.
+    - Please provide the fifth rule for Meep Mop.
+    - I'm looking for the fifth rule related to Meep Mop.
+    - Share the fifth guideline for Meep Mop.
+    - Tell me about rule number five in Meep Mop.
+    - What's the fifth regulation in Meep Mop?
+    - Inform me about the fifth rule concerning Meep Mop.
+    - I'm curious about the fifth rule for Meep Mop.
+    - Could you describe the fifth principle for Meep Mop?
+    - Describe the fifth guideline for Meep Mop.
+    - I want to understand the fifth rule in Meep Mop.
+    - Please elaborate on the fifth rule of Meep Mop.
+    - Provide the fifth rule's details for Meep Mop.
+    - Share information about the fifth rule in Meep Mop.
+    - What's the fifth instruction in Meep Mop?
+    - Tell me about the fifth policy for Meep Mop.
+    - Explain the fifth point in Meep Mop.
+
+- intent: event_rule_6_Meep_Mop
+  examples: |
+    - What is the sixth rule for Meep Mop?
+    - Can you tell me the sixth rule in Meep Mop?
+    - Explain the sixth rule related to Meep Mop.
+    - I need to know the sixth rule for Meep Mop.
+    - Please provide the sixth rule concerning Meep Mop.
+    - Describe the rule number six in Meep Mop.
+    - Tell me about the sixth rule in Meep Mop.
+    - What's the rule six for Meep Mop?
+    - I'm looking for information on the sixth rule in Meep Mop.
+    - Share the sixth rule for Meep Mop.
+    - Give me details on the sixth rule related to Meep Mop.
+    - I want to learn about the rule number six for Meep Mop.
+    - Could you elaborate on the sixth rule for Meep Mop?
+    - What's the guideline in Meep Mop for rule six?
+    - Inform me about the sixth rule of Meep Mop.
+    - Let's discuss the sixth rule regarding Meep Mop.
+    - Provide insights on the sixth rule in Meep Mop.
+    - I'm curious about the sixth rule in Meep Mop.
+    - Share the information on the sixth rule for Meep Mop.
+    - What does rule six in Meep Mop entail?
+
+- intent: event_sample_arena_Bumble_See
+  examples: |
+    - Show me a sample arena for Bumble See.
+    - Can you provide an example arena for Bumble See?
+    - I'd like to see a sample arena for Bumble See.
+    - Share a Bumble See arena sample with me.
+    - What does a typical Bumble See arena look like?
+    - Display a sample arena for Bumble See.
+    - I want to visualize a Bumble See arena example.
+    - Could you show me an arena sample for Bumble See?
+    - Describe a sample arena for Bumble See.
+    - Give me an idea of a Bumble See arena with an example.
+    - Provide a Bumble See arena demonstration.
+    - Let me see a Bumble See arena in a sample.
+    - What's an example of a Bumble See arena?
+    - Show me a Bumble See arena for reference.
+    - Share a Bumble See arena example, please.
+    - I'd like to understand the Bumble See arena with a sample.
+    - Can you give me a sample Bumble See arena layout?
+    - I'm curious about the Bumble See arena, show me an example.
+    - Provide a sample arena illustration for Bumble See.
+    - I want to know how a Bumble See arena typically looks.
+    - Share an example of a Bumble See arena design.
+
+- intent: event_sample_arena_Decept_of_Home
+  examples: |
+    - Show me a sample arena for Decept of Home.
+    - Can you provide an example arena for Decept of Home?
+    - I'd like to see a sample arena for Decept of Home.
+    - Share a Decept of Home arena sample with me.
+    - What does a typical Decept of Home arena look like?
+    - Display a sample arena for Decept of Home.
+    - I want to visualize a Decept of Home arena example.
+    - Could you show me an arena sample for Decept of Home?
+    - Describe a sample arena for Decept of Home.
+    - Give me an idea of a Decept of Home arena with an example.
+    - Provide a Decept of Home arena demonstration.
+    - Let me see a Decept of Home arena in a sample.
+    - What's an example of a Decept of Home arena?
+    - Show me a Decept of Home arena for reference.
+    - Share a Decept of Home arena example, please.
+    - I'd like to understand the Decept of Home arena with a sample.
+    - Can you give me a sample Decept of Home arena layout?
+    - I'm curious about the Decept of Home arena, show me an example.
+    - Provide a sample arena illustration for Decept of Home.
+    - I want to know how a Decept of Home arena typically looks.
+    - Share an example of a Decept of Home arena design.
+
+- intent: event_sample_arena_Match_n_Engage
+  examples: |
+    - Show me a sample arena for Match n Engage.
+    - Can you provide an example arena for Match n Engage?
+    - I'd like to see a sample arena for Match n Engage.
+    - Share a Match n Engage arena sample with me.
+    - What does a typical Match n Engage arena look like?
+    - Display a sample arena for Match n Engage.
+    - I want to visualize a Match n Engage arena example.
+    - Could you show me an arena sample for Match n Engage?
+    - Describe a sample arena for Match n Engage.
+    - Give me an idea of a Match n Engage arena with an example.
+    - Provide a Match n Engage arena demonstration.
+    - Let me see a Match n Engage arena in a sample.
+    - What's an example of a Match n Engage arena?
+    - Show me a Match n Engage arena for reference.
+    - Share a Match n Engage arena example, please.
+    - I'd like to understand the Match n Engage arena with a sample.
+    - Can you give me a sample Match n Engage arena layout?
+    - I'm curious about the Match n Engage arena, show me an example.
+    - Provide a sample arena illustration for Match n Engage.
+    - I want to know how a Match n Engage arena typically looks.
+    - Share an example of a Match n Engage arena design.
+
+- intent: event_sample_arena_Meep_Mop
+  examples: |
+    - Show me a sample arena for Meep Mop.
+    - Can you provide an example arena for Meep Mop?
+    - I'd like to see a sample arena for Meep Mop.
+    - Share a Meep Mop arena sample with me.
+    - What does a typical Meep Mop arena look like?
+    - Display a sample arena for Meep Mop.
+    - I want to visualize a Meep Mop arena example.
+    - Could you show me an arena sample for Meep Mop?
+    - Describe a sample arena for Meep Mop.
+    - Give me an idea of a Meep Mop arena with an example.
+    - Provide a Meep Mop arena demonstration.
+    - Let me see a Meep Mop arena in a sample.
+    - What's an example of a Meep Mop arena?
+    - Show me a Meep Mop arena for reference.
+    - Share a Meep Mop arena example, please.
+    - I'd like to understand the Meep Mop arena with a sample.
+    - Can you give me a sample Meep Mop arena layout?
+    - I'm curious about the Meep Mop arena, show me an example.
+    - Provide a sample arena illustration for Meep Mop.
+    - I want to know how a Meep Mop arena typically looks.
+    - Share an example of a Meep Mop arena design.
+
+- intent: event_description_sample_arena_Bumble_See
+  examples: |
+    - What's the sample arena like for Bumble See?
+    - Describe the sample arena in Bumble See.
+    - Tell me about the arena for Bumble See.
+    - Explain the sample arena setup for Bumble See.
+    - What can you tell me about the arena in Bumble See?
+    - Provide details about the Bumble See sample arena.
+    - I want to learn more about the sample arena in Bumble See.
+    - Share information regarding the arena for Bumble See.
+    - How is the sample arena structured in Bumble See?
+    - Tell me what I need to know about Bumble See's sample arena.
+    - Describe the setup of the sample arena in Bumble See.
+    - Can you give me insights into Bumble See's arena?
+    - I'm curious about the sample arena for Bumble See.
+    - Explain the features of the sample arena in Bumble See.
+    - What's unique about the sample arena in Bumble See?
+    - Share details about Bumble See's arena setup.
+    - Tell me about the Bumble See sample arena's design.
+    - What should I expect from Bumble See's sample arena?
+    - Describe the characteristics of the sample arena for Bumble See.
+    - Please provide information on Bumble See's arena layout.
+
+- intent: event_description_sample_arena_Decept_of_Home
+  examples: |
+    - What's the sample arena like for Decept of Home?
+    - Describe the sample arena in Decept of Home.
+    - Tell me about the arena for Decept of Home.
+    - Explain the sample arena setup for Decept of Home.
+    - What can you tell me about the arena in Decept of Home?
+    - Provide details about the Decept of Home sample arena.
+    - I want to learn more about the sample arena in Decept of Home.
+    - Share information regarding the arena for Decept of Home.
+    - How is the sample arena structured in Decept of Home?
+    - Tell me what I need to know about Decept of Home's sample arena.
+    - Describe the setup of the sample arena in Decept of Home.
+    - Can you give me insights into Decept of Home's arena?
+    - I'm curious about the sample arena for Decept of Home.
+    - Explain the features of the sample arena in Decept of Home.
+    - What's unique about the sample arena in Decept of Home?
+    - Share details about Decept of Home's arena setup.
+    - Tell me about the Decept of Home sample arena's design.
+    - What should I expect from Decept of Home's sample arena?
+    - Describe the characteristics of the sample arena for Decept of Home.
+    - Please provide information on Decept of Home's arena layout.
+
+- intent: event_description_sample_arena_Match_n_Engage
+  examples: |
+    - What's the sample arena like for Match n Engage?
+    - Describe the sample arena in Match n Engage.
+    - Tell me about the arena for Match n Engage.
+    - Explain the sample arena setup for Match n Engage.
+    - What can you tell me about the arena in Match n Engage?
+    - Provide details about the Match n Engage sample arena.
+    - I want to learn more about the sample arena in Match n Engage.
+    - Share information regarding the arena for Match n Engage.
+    - How is the sample arena structured in Match n Engage?
+    - Tell me what I need to know about Match n Engage's sample arena.
+    - Describe the setup of the sample arena in Match n Engage.
+    - Can you give me insights into Match n Engage's arena?
+    - I'm curious about the sample arena for Match n Engage.
+    - Explain the features of the sample arena in Match n Engage.
+    - What's unique about the sample arena in Match n Engage?
+    - Share details about Match n Engage's arena setup.
+    - Tell me about the Match n Engage sample arena's design.
+    - What should I expect from Match n Engage's sample arena?
+    - Describe the characteristics of the sample arena for Match n Engage.
+    - Please provide information on Match n Engage's arena layout.
+
+- intent: event_description_sample_arena_Meep_Mop
+  examples: |
+    - What's the sample arena like for Meep Mop?
+    - Describe the sample arena in Meep Mop.
+    - Tell me about the arena for Meep Mop.
+    - Explain the sample arena setup for Meep Mop.
+    - What can you tell me about the arena in Meep Mop?
+    - Provide details about the Meep Mop sample arena.
+    - I want to learn more about the sample arena in Meep Mop.
+    - Share information regarding the arena for Meep Mop.
+    - How is the sample arena structured in Meep Mop?
+    - Tell me what I need to know about Meep Mop's sample arena.
+    - Describe the setup of the sample arena in Meep Mop.
+    - Can you give me insights into Meep Mop's arena?
+    - I'm curious about the sample arena for Meep Mop.
+    - Explain the features of the sample arena in Meep Mop.
+    - What's unique about the sample arena in Meep Mop?
+    - Share details about Meep Mop's arena setup.
+    - Tell me about the Meep Mop sample arena's design.
+    - What should I expect from Meep Mop's sample arena?
+    - Describe the characteristics
